@@ -1,0 +1,1181 @@
+frame.number	frame.time_epoch	wlan.fc.type	wlan.fc.subtype	radiotap.dbm_antsignal	radiotap.channel.freq	wlan.ds.current_channel	wlan.ra	wlan.ta	wlan.bssid	wlan.ssid	wlan.seq	wlan.fc.retry	wlan.fc.protected	wlan.fixed.status_code	wlan.fixed.reason_code	wlan_rsna_eapol.keydes.msgnr	wlan.fc.tods	wlan.fc.fromds	wlan.da	wlan.sa	wlan.fc.version
+1	946685053.080796000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3841	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+2	946685053.183203000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3842	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+3	946685053.285606000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3843	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+4	946685053.387997000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3844	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+5	946685053.490395000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3845	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+6	946685053.592812000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3846	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+7	946685053.695198000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3847	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+8	946685053.797605000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3848	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+9	946685053.900025000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3849	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+10	946685054.104788000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3851	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+11	946685054.207209000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3852	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+12	946685054.309605000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3853	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+13	946685054.412006000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3854	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+14	946685054.514406000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3855	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+15	946685054.616811000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3856	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+16	946685054.719213000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3857	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+17	946685054.821611000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3858	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+18	946685054.924007000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3859	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+19	946685055.026413000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3860	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+20	946685055.128813000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3861	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+21	946685055.231211000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3862	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+22	946685055.333615000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3863	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+23	946685055.436006000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3864	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+24	946685055.538410000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3865	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+25	946685055.640811000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3866	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+26	946685055.743217000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3867	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+27	946685055.845615000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3868	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+28	946685055.948020000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3869	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+29	946685056.050412000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3870	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+30	946685056.152824000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3871	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+31	946685056.255223000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3872	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+32	946685056.357613000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3873	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+33	946685056.460052000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3874	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+34	946685056.562424000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3875	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+35	946685056.664820000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3876	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+36	946685056.767223000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3877	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+37	946685056.869627000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3878	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+38	946685056.972021000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3879	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+39	946685057.074417000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3880	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+40	946685057.176823000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3881	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+41	946685057.279223000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3882	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+42	946685057.381630000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3883	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+43	946685057.484030000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3884	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+44	946685057.586426000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3885	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+45	946685057.688831000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3886	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+46	946685057.791229000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3887	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+47	946685057.893624000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3888	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+48	946685057.996031000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3889	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+49	946685058.098431000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3890	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+50	946685058.200822000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3891	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+51	946685058.303228000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3892	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+52	946685058.405629000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3893	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+53	946685058.508034000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3894	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+54	946685058.610417000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3895	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+55	946685058.712835000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3896	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+56	946685058.815238000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3897	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+57	946685058.917634000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3898	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+58	946685059.020057000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3899	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+59	946685059.122438000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3900	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+60	946685059.224833000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3901	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+61	946685059.327239000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3902	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+62	946685059.429639000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3903	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+63	946685059.532040000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3904	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+64	946685059.634435000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3905	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+65	946685059.736840000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3906	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+66	946685059.839237000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3907	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+67	946685059.941646000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3908	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+68	946685060.044046000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3909	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+69	946685060.146442000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3910	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+70	946685060.248842000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3911	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+71	946685060.351240000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3912	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+72	946685060.453645000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3913	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+73	946685060.556043000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3914	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+74	946685060.658445000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3915	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+75	946685060.760837000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3916	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+76	946685060.863250000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3917	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+77	946685060.965645000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3918	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+78	946685061.068048000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3919	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+79	946685061.170439000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3920	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+80	946685061.272854000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3921	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+81	946685061.375248000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3922	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+82	946685061.477652000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3923	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+83	946685061.580073000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3924	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+84	946685061.682457000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3925	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+85	946685061.784851000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3926	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+86	946685061.887250000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3927	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+87	946685061.989657000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3928	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+88	946685062.092053000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3929	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+89	946685062.194452000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3930	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+90	946685062.296860000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3931	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+91	946685062.399260000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3932	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+92	946685062.501658000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3933	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+93	946685062.604066000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3934	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+94	946685062.706464000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3935	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+95	946685062.808861000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3936	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+96	946685062.911250000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3937	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+97	946685063.013668000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3938	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+98	946685063.116060000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3939	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+99	946685063.218806000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3940	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+100	946685063.320851000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3941	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+101	946685063.423261000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3942	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+102	946685063.525658000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3943	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+103	946685063.628062000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3944	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+104	946685063.730453000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3945	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+105	946685063.832862000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3946	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+106	946685063.935264000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3947	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+107	946685064.037668000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3948	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+108	946685064.140090000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3949	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+109	946685064.242474000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3950	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+110	946685064.344869000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3951	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+111	946685064.447276000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3952	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+112	946685064.549670000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3953	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+113	946685064.652069000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3954	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+114	946685064.754477000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3955	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+115	946685064.856874000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3956	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+116	946685064.959285000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3957	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+117	946685065.061673000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3958	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+118	946685065.164076000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3959	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+119	946685065.266478000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3960	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+120	946685065.368870000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3961	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+121	946685065.471266000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3962	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+122	946685065.573686000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3963	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+123	946685065.676067000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3964	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+124	946685065.778460000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3965	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+125	946685065.880866000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3966	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+126	946685065.983288000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3967	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+127	946685066.085664000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3968	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+128	946685066.188080000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3969	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+129	946685066.290474000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3970	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+130	946685066.392883000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3971	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+131	946685066.495297000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3972	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+132	946685066.597687000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3973	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+133	946685066.700095000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3974	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+134	946685066.802482000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3975	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+135	946685066.904890000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3976	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+136	946685067.007296000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3977	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+137	946685067.109686000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3978	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+138	946685067.212089000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3979	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+139	946685067.314495000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3980	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+140	946685067.416891000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3981	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+141	946685067.519301000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3982	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+142	946685067.621691000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3983	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+143	946685067.724097000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3984	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+144	946685067.826489000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3985	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+145	946685067.928893000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3986	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+146	946685068.031295000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3987	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+147	946685068.133696000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3988	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+148	946685068.236092000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3989	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+149	946685068.338501000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3990	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+150	946685068.440887000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3991	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+151	946685068.543294000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3992	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+152	946685068.616317000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		3993	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+153	946685068.623972000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		3994	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+154	946685068.633965000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		3995	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+155	946685068.643967000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		3996	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+156	946685068.645695000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	3997	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+157	946685068.653950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		3998	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+158	946685068.663939000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		3999	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+159	946685068.673950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4000	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+160	946685068.684306000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4001	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+161	946685068.693970000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4002	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+162	946685068.703954000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4003	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+163	946685068.713970000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4004	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+164	946685068.723947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4005	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+165	946685068.733944000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4006	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+166	946685068.743945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4007	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+167	946685068.748094000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4008	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+168	946685068.753942000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4009	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+169	946685068.763941000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4010	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+170	946685068.773954000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4011	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+171	946685068.783943000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4012	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+172	946685068.793969000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4013	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+173	946685068.803960000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4014	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+174	946685068.813976000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4015	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+175	946685068.823965000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4016	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+176	946685068.833946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4017	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+177	946685068.843944000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4018	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+178	946685068.850485000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4019	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+179	946685068.853982000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4020	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+180	946685068.863952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4021	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+181	946685068.873955000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4022	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+182	946685068.883943000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4023	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+183	946685068.894008000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4024	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+184	946685068.903955000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4025	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+185	946685068.913965000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4026	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+186	946685068.923947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4027	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+187	946685068.933957000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4028	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+188	946685068.943947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4029	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+189	946685068.952881000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4030	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+190	946685068.953980000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4031	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+191	946685068.963946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4032	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+192	946685068.973948000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4033	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+193	946685068.983946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4034	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+194	946685068.994018000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4035	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+195	946685069.003946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4036	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+196	946685069.013958000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4037	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+197	946685069.023952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4038	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+198	946685069.033959000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4039	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+199	946685069.043970000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4040	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+200	946685069.053962000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4041	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+201	946685069.055301000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4042	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+202	946685069.063967000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4043	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+203	946685069.073968000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4044	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+204	946685069.083939000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4045	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+205	946685069.093946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4046	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+206	946685069.103951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4047	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+207	946685069.113959000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4048	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+208	946685069.123943000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4049	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+209	946685069.133953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4050	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+210	946685069.143952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4051	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+211	946685069.153949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4052	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+212	946685069.157703000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4053	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+213	946685069.163946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4054	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+214	946685069.173948000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4055	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+215	946685069.183939000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4056	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+216	946685069.194011000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4057	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+217	946685069.203964000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4058	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+218	946685069.213968000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4059	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+219	946685069.223952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4060	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+220	946685069.233952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4061	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+221	946685069.243952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4062	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+222	946685069.253943000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4063	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+223	946685069.260232000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4064	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+224	946685069.263990000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4065	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+225	946685069.273969000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4066	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+226	946685069.283949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4067	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+227	946685069.293977000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4068	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+228	946685069.294335000	2	0				00:01:e3:41:bd:6e	00:15:00:34:18:52	00:01:e3:41:bd:6e		453	False	True				True	False	00:01:e3:42:9e:2b	00:15:00:34:18:52	0
+229	946685069.294391000	1	13				00:15:00:34:18:52					False	False				False	False			0
+230	946685069.304024000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4069	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+231	946685069.313980000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4070	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+232	946685069.323957000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4071	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+233	946685069.333949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4072	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+234	946685069.343949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4073	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+235	946685069.353949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4074	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+236	946685069.362486000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4075	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+237	946685069.363984000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4076	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+238	946685069.373956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4077	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+239	946685069.383956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4078	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+240	946685069.393957000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4079	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+241	946685069.404001000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4080	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+242	946685069.413967000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4081	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+243	946685069.423951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4082	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+244	946685069.433951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4083	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+245	946685069.443952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4084	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+246	946685069.453951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4085	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+247	946685069.463941000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4086	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+248	946685069.465112000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	4087	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+249	946685069.473943000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4088	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+250	946685069.483943000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4089	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+251	946685069.493959000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4090	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+252	946685069.504164000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4091	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+253	946685069.513970000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4092	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+254	946685069.523946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4093	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+255	946685069.533946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4094	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+256	946685069.543947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4095	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+257	946685069.553938000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		0	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+258	946685069.563947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		1	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+259	946685069.567301000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	2	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+260	946685069.573946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		3	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+261	946685069.583935000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		4	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+262	946685069.593962000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		5	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+263	946685069.603946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		6	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+264	946685069.613978000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		7	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+265	946685069.623949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		8	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+266	946685069.633947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		9	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+267	946685069.643948000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		10	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+268	946685069.653956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		11	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+269	946685069.663948000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		12	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+270	946685069.669700000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	13	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+271	946685069.673986000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		14	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+272	946685069.683937000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		15	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+273	946685069.693965000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		16	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+274	946685069.703946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		17	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+275	946685069.714013000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		18	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+276	946685069.723953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		19	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+277	946685069.733942000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		20	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+278	946685069.743943000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		21	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+279	946685069.753950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		22	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+280	946685069.763941000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		23	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+281	946685069.772096000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	24	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+282	946685069.773989000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		25	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+283	946685069.783941000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		26	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+284	946685069.793968000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		27	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+285	946685069.803949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		28	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+286	946685069.814027000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		29	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+287	946685069.823947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		30	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+288	946685069.833954000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		31	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+289	946685069.843946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		32	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+290	946685069.853945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		33	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+291	946685069.863950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		34	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+292	946685069.873942000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		35	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+293	946685069.875111000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	36	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+294	946685069.883949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		37	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+295	946685069.893969000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		38	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+296	946685069.903944000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		39	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+297	946685069.914068000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		40	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+298	946685069.923945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		41	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+299	946685069.933952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		42	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+300	946685069.943950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		43	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+301	946685069.953949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		44	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+302	946685069.964013000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		45	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+303	946685069.973953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		46	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+304	946685069.976902000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	47	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+305	946685069.983951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		48	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+306	946685069.993959000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		49	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+307	946685070.003945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		50	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+308	946685070.013968000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		51	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+309	946685070.023954000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		52	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+310	946685070.033945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		53	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+311	946685070.043964000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		54	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+312	946685070.053963000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		55	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+313	946685070.063953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		56	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+314	946685070.073967000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		57	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+315	946685070.079302000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	58	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+316	946685070.083984000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		59	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+317	946685070.093962000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		60	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+318	946685070.103944000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		61	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+319	946685070.113952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		62	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+320	946685070.123956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		63	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+321	946685070.133949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		64	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+322	946685070.143948000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		65	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+323	946685070.153947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		66	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+324	946685070.163956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		67	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+325	946685070.173950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		68	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+326	946685070.181696000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	69	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+327	946685070.183986000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		70	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+328	946685070.194019000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		71	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+329	946685070.203955000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		72	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+330	946685070.213963000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		73	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+331	946685070.224010000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		74	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+332	946685070.233949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		75	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+333	946685070.243959000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		76	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+334	946685070.253949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		77	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+335	946685070.264020000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		78	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+336	946685070.273977000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		79	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+337	946685070.284101000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	80	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+338	946685070.285128000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		81	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+339	946685070.293976000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		82	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+340	946685070.303947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		83	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+341	946685070.313958000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		84	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+342	946685070.323999000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		85	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+343	946685070.333952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		86	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+344	946685070.343960000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		87	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+345	946685070.353960000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		88	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+346	946685070.363951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		89	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+347	946685070.373945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		90	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+348	946685070.383953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		91	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+349	946685070.386509000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	92	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+350	946685070.393987000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		93	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+351	946685070.403949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		94	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+352	946685070.413957000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		95	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+353	946685070.423935000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		96	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+354	946685070.433955000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		97	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+355	946685070.443947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		98	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+356	946685070.453950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		99	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+357	946685070.463949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		100	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+358	946685070.473953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		101	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+359	946685070.483953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		102	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+360	946685070.488911000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	103	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+361	946685070.494005000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		104	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+362	946685070.503949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		105	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+363	946685070.513966000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		106	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+364	946685070.523951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		107	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+365	946685070.533951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		108	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+366	946685070.543946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		109	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+367	946685070.553945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		110	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+368	946685070.563950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		111	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+369	946685070.573956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		112	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+370	946685070.583945000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		113	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+371	946685070.591297000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	114	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+372	946685070.594010000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		115	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+373	946685070.603952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		116	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+374	946685070.613968000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		117	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+375	946685070.623956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		118	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+376	946685070.633999000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		119	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+377	946685070.643956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		120	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+378	946685070.653948000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		121	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+379	946685070.663949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		122	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+380	946685070.673940000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		123	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+381	946685070.683958000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		124	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+382	946685070.693688000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	125	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+383	946685070.694723000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		126	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+384	946685070.703946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		127	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+385	946685070.713973000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		128	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+386	946685070.723948000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		129	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+387	946685070.733990000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		130	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+388	946685070.743950000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		131	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+389	946685070.753947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		132	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+390	946685070.763938000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		133	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+391	946685070.773985000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		134	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+392	946685070.783947000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		135	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+393	946685070.793966000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		136	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+394	946685070.796109000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	137	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+395	946685070.803956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		138	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+396	946685070.813972000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		139	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+397	946685070.823949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		140	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+398	946685070.834736000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		141	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+399	946685070.843961000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		142	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+400	946685070.853952000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		143	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+401	946685070.863944000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		144	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+402	946685070.873963000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		145	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+403	946685070.883953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		146	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+404	946685070.893971000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		147	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+405	946685070.898508000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	148	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+406	946685070.903944000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		149	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+407	946685070.913968000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		150	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+408	946685070.923962000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		151	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+409	946685070.933962000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		152	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+410	946685070.943953000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		153	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+411	946685070.953955000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		154	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+412	946685070.963965000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		155	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+413	946685070.973951000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		156	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+414	946685070.983956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		157	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+415	946685070.993967000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		158	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+416	946685071.000943000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	159	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+417	946685071.003993000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		160	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+418	946685071.013962000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		161	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+419	946685071.023956000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		162	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+420	946685071.033946000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		163	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+421	946685071.044015000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		164	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+422	946685071.053962000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		165	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+423	946685071.063966000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		166	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+424	946685071.073970000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		167	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+425	946685071.083944000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		168	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+426	946685071.093958000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		169	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+427	946685071.103299000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	170	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+428	946685071.104222000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		171	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+429	946685071.113966000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		172	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+430	946685071.123949000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		173	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+431	946685071.133957000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		174	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+432	946685071.205697000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	175	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+433	946685071.308116000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	176	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+434	946685071.410505000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	177	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+435	946685071.512914000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	178	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+436	946685071.615322000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	179	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+437	946685071.717718000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	180	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+438	946685071.820149000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	181	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+439	946685071.922516000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	182	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+440	946685072.024921000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	183	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+441	946685072.127329000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	184	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+442	946685072.229718000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	185	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+443	946685072.332119000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	186	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+444	946685072.434519000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	187	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+445	946685072.536924000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	188	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+446	946685072.639323000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	189	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+447	946685072.741725000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	190	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+448	946685072.844123000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	191	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+449	946685072.946526000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	192	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+450	946685073.048930000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	193	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+451	946685073.151326000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	194	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+452	946685073.253731000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	195	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+453	946685073.356133000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	196	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+454	946685073.458524000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	197	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+455	946685073.560912000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	198	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+456	946685073.663336000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	199	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+457	946685073.765733000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	200	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+458	946685073.868129000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	201	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+459	946685073.970523000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	202	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+460	946685074.072930000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	203	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+461	946685074.175337000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	204	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+462	946685074.277732000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	205	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+463	946685074.380144000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	206	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+464	946685074.482537000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	207	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+465	946685074.584932000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	208	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+466	946685074.687343000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	209	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+467	946685074.789734000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	210	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+468	946685074.892141000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	211	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+469	946685074.994538000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	212	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+470	946685075.096936000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	213	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+471	946685075.199341000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	214	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+472	946685075.301738000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	215	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+473	946685075.404144000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	216	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+474	946685075.506540000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	217	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+475	946685075.608945000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	218	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+476	946685075.711338000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	219	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+477	946685075.813740000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	220	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+478	946685075.916147000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	221	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+479	946685076.018543000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	222	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+480	946685076.039721000	2	0				00:01:e3:41:bd:6e	00:15:00:34:18:52	00:01:e3:41:bd:6e		454	False	True				True	False	00:01:e3:42:9e:2b	00:15:00:34:18:52	0
+481	946685076.039783000	1	13				00:15:00:34:18:52					False	False				False	False			0
+482	946685076.120928000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	223	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+483	946685076.223352000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	224	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+484	946685076.282130000	2	0				00:15:00:34:18:52	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		225	False	True				False	True	00:15:00:34:18:52	00:01:e3:42:9e:2b	0
+485	946685076.282190000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+486	946685076.325738000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	226	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+487	946685076.428142000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	227	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+488	946685076.530534000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	228	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+489	946685076.632951000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	229	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+490	946685076.735352000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	230	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+491	946685076.837741000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	231	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+492	946685076.940152000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	232	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+493	946685077.042549000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	233	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+494	946685077.144954000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	234	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+495	946685077.247354000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	235	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+496	946685077.349750000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	236	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+497	946685077.452152000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	237	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+498	946685077.554550000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	238	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+499	946685077.656957000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	239	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+500	946685077.759353000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	240	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+501	946685077.861754000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	241	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+502	946685077.964158000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	242	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+503	946685078.066562000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	243	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+504	946685078.168959000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	244	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+505	946685078.271359000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	245	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+506	946685078.373742000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	246	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+507	946685078.476161000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	247	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+508	946685078.578561000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	248	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+509	946685078.680964000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	249	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+510	946685078.783364000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	250	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+511	946685078.885764000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	251	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+512	946685078.988160000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	252	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+513	946685079.090551000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	253	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+514	946685079.192969000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	254	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+515	946685079.295362000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	255	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+516	946685079.397752000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	256	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+517	946685079.500153000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	257	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+518	946685079.602570000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	258	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+519	946685079.704968000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	259	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+520	946685079.807377000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	260	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+521	946685079.909769000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	261	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+522	946685080.012165000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	262	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+523	946685080.114572000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	263	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+524	946685080.216968000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	264	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+525	946685080.319371000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	265	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+526	946685080.421768000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	266	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+527	946685080.524176000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	267	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+528	946685080.626573000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	268	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+529	946685080.728979000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	269	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+530	946685080.831370000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	270	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+531	946685080.933778000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	271	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+532	946685081.036179000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	272	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+533	946685081.138575000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	273	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+534	946685081.240981000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	274	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+535	946685081.343385000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	275	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+536	946685081.445760000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	276	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+537	946685081.548183000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	277	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+538	946685081.650566000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	278	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+539	946685081.752982000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	279	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+540	946685081.855383000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	280	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+541	946685081.957785000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	281	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+542	946685082.060216000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	282	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+543	946685082.162588000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	283	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+544	946685082.264987000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	284	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+545	946685082.367383000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	285	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+546	946685082.469771000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	286	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+547	946685082.572182000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	287	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+548	946685082.674589000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	288	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+549	946685082.776983000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	289	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+550	946685082.879390000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	290	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+551	946685082.981793000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	291	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+552	946685083.084188000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	292	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+553	946685083.186593000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	293	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+554	946685083.288989000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	294	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+555	946685083.391394000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	295	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+556	946685083.493775000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	296	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+557	946685083.596191000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	297	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+558	946685083.698591000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	298	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+559	946685083.800996000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	299	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+560	946685083.903404000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	300	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+561	946685084.005795000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	301	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+562	946685084.108190000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	302	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+563	946685084.210582000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	303	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+564	946685084.312999000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	304	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+565	946685084.415397000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	305	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+566	946685084.517787000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	306	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+567	946685084.620185000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	307	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+568	946685084.722600000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	308	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+569	946685084.824995000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	309	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+570	946685084.927404000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	310	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+571	946685085.029804000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	311	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+572	946685085.132202000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	312	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+573	946685085.234598000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	313	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+574	946685085.337001000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	314	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+575	946685085.439408000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	315	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+576	946685085.541804000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	316	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+577	946685085.644209000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	317	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+578	946685085.746603000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	318	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+579	946685085.849009000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	319	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+580	946685085.951400000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	320	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+581	946685086.053810000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	321	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+582	946685086.156212000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	322	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+583	946685086.258610000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	323	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+584	946685086.361014000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	324	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+585	946685086.463411000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	325	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+586	946685086.565799000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	326	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+587	946685086.668210000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	327	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+588	946685086.770601000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	328	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+589	946685086.873015000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	329	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+590	946685086.975414000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	330	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+591	946685087.077814000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	331	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+592	946685087.180201000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	332	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+593	946685087.282620000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	333	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+594	946685087.385010000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	334	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+595	946685087.487417000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	335	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+596	946685087.589798000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	336	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+597	946685087.692215000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	337	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+598	946685087.794623000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	338	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+599	946685087.897015000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	339	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+600	946685087.999423000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	340	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+601	946685088.101823000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	341	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+602	946685088.204219000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	342	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+603	946685088.306623000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	343	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+604	946685088.409019000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	344	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+605	946685088.511423000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	345	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+606	946685088.613921000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	346	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+607	946685088.716225000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	347	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+608	946685088.818627000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	348	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+609	946685088.921023000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	349	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+610	946685089.023443000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	350	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+611	946685089.125808000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	351	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+612	946685089.228227000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	352	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+613	946685089.330618000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	353	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+614	946685089.433034000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	354	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+615	946685089.535430000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	355	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+616	946685089.637815000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	356	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+617	946685089.740222000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	357	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+618	946685089.842627000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	358	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+619	946685089.945031000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	359	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+620	946685090.047450000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	360	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+621	946685090.149820000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	361	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+622	946685090.252235000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	362	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+623	946685090.354639000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	363	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+624	946685090.457036000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	364	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+625	946685090.559448000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	365	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+626	946685090.661837000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	366	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+627	946685090.764241000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	367	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+628	946685090.866636000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	368	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+629	946685090.969041000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	369	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+630	946685091.071443000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	370	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+631	946685091.173838000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	371	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+632	946685091.276235000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	372	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+633	946685091.378640000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	373	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+634	946685091.481039000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	374	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+635	946685091.583445000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	375	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+636	946685091.685844000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	376	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+637	946685091.788242000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	377	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+638	946685091.890639000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	378	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+639	946685091.993045000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	379	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+640	946685092.095464000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	380	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+641	946685092.197829000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	381	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+642	946685092.300229000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	382	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+643	946685092.402649000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	383	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+644	946685092.505045000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	384	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+645	946685092.607467000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	385	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+646	946685092.709854000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	386	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+647	946685092.812254000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	387	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+648	946685092.914651000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	388	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+649	946685093.017054000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	389	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+650	946685093.119460000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	390	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+651	946685093.221850000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	391	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+652	946685093.324250000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	392	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+653	946685093.426658000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	393	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+654	946685093.529052000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	394	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+655	946685093.631464000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	395	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+656	946685093.733853000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	396	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+657	946685093.836259000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	397	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+658	946685093.938654000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	398	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+659	946685094.041061000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	399	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+660	946685094.143479000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	400	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+661	946685094.245842000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	401	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+662	946685094.348257000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	402	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+663	946685094.450646000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	403	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+664	946685094.553063000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	404	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+665	946685094.655477000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	405	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+666	946685094.757860000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	406	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+667	946685094.860259000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	407	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+668	946685094.962660000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	408	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+669	946685095.065063000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	409	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+670	946685095.167486000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	410	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+671	946685095.269864000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	411	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+672	946685095.372262000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	412	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+673	946685095.474668000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	413	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+674	946685095.577066000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	414	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+675	946685095.679480000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	415	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+676	946685095.781872000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	416	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+677	946685095.884265000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	417	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+678	946685095.986673000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	418	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+679	946685096.089071000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	419	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+680	946685096.191481000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	420	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+681	946685096.293869000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	421	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+682	946685096.396276000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	422	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+683	946685096.498675000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	423	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+684	946685096.601071000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	424	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+685	946685096.703484000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	425	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+686	946685096.805875000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	426	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+687	946685096.908278000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	427	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+688	946685097.010677000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	428	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+689	946685097.145656000	0	4			13	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	4	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+690	946685097.146314000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	430	False	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+691	946685097.147297000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	430	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+692	946685097.148753000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	430	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+693	946685097.151913000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	430	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+694	946685097.154453000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	430	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+695	946685097.156866000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	430	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+696	946685097.166459000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	430	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+697	946685097.215686000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	431	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+698	946685097.254481000	0	4			8	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	7	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+699	946685097.287056000	0	4			11	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	8	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+700	946685097.287718000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	432	False	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+701	946685097.287949000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+702	946685097.317870000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	433	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+703	946685097.395784000	0	4			9	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	11	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+704	946685097.420273000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	434	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+705	946685097.428432000	0	4			12	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	12	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+706	946685097.429078000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	435	False	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+707	946685097.430166000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	435	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+708	946685097.431091000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	435	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+709	946685097.432006000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	435	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+710	946685097.433405000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	435	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+711	946685097.437823000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	435	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+712	946685097.444283000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	435	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+713	946685097.522660000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	436	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+714	946685097.625076000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	437	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+715	946685097.626004000	0	11				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		13	False	False	0x0000			False	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+716	946685097.626228000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+717	946685097.626895000	0	11				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		438	False	False	0x0000			False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+718	946685097.627193000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+719	946685097.627992000	0	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	6d617274696e657433	14	False	False				False	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+720	946685097.628212000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+721	946685097.629258000	0	1				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		439	False	False	0x0000			False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+722	946685097.629542000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+723	946685097.630171000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		440	False	False			1	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+724	946685097.630352000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		440	True	False			1	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+725	946685097.630694000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		440	True	False			1	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+726	946685097.632371000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		440	True	False			1	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+727	946685097.632657000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+728	946685097.670674000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		15	False	False			2	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+729	946685097.671087000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		15	True	False			2	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+730	946685097.671427000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		15	True	False			2	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+731	946685097.671891000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		15	True	False			2	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+732	946685097.671947000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+733	946685097.674205000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		441	False	False			3	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+734	946685097.674352000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		441	True	False			3	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+735	946685097.674687000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		441	True	False			3	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+736	946685097.676990000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		441	True	False			3	False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+737	946685097.677279000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+738	946685097.681020000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		16	False	False			4	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+739	946685097.681187000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		16	True	False			4	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+740	946685097.681669000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		16	True	False			4	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+741	946685097.682132000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		16	True	False			4	True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+742	946685097.682186000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+743	946685097.684802000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		442	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+744	946685097.684862000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+745	946685097.689117000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		17	False	True				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+746	946685097.689513000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		17	True	True				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+747	946685097.689967000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		17	True	True				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+748	946685097.690418000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		17	True	True				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+749	946685097.690475000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+750	946685097.727475000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	443	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+751	946685097.829861000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	444	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+752	946685097.863016000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		18	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+753	946685097.863482000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		18	True	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+754	946685097.863957000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		18	True	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+755	946685097.864018000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+756	946685097.868048000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		445	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+757	946685097.872350000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		446	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+758	946685097.878432000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		19	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+759	946685097.878857000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		19	True	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+760	946685097.879415000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		19	True	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+761	946685097.879474000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+762	946685097.883470000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		447	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+763	946685097.886694000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		448	False	True				False	True	ff:ff:ff:ff:ff:ff	00:01:e3:42:9e:2b	0
+764	946685097.890835000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		20	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+765	946685097.891249000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		20	True	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+766	946685097.891660000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		20	True	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+767	946685097.891716000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+768	946685097.893166000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		449	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+769	946685097.932269000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	450	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+770	946685098.034683000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	451	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+771	946685098.137081000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	452	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+772	946685098.239483000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	453	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+773	946685098.271585000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		21	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+774	946685098.272009000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		21	True	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+775	946685098.272062000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+776	946685098.273565000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		454	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+777	946685098.341865000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	455	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+778	946685098.444284000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	456	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+779	946685098.546689000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	457	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+780	946685098.649082000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	458	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+781	946685098.751487000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	459	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+782	946685098.853872000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	460	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+783	946685098.956285000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	461	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+784	946685099.058691000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	462	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+785	946685099.161086000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	463	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+786	946685099.263492000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	464	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+787	946685099.287805000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		22	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+788	946685099.287864000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+789	946685099.289303000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		465	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+790	946685099.365878000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	466	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+791	946685099.468288000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	467	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+792	946685099.561087000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		23	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+793	946685099.561148000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+794	946685099.562604000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		468	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+795	946685099.562748000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		469	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+796	946685099.563105000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		469	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+797	946685099.563158000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+798	946685099.566448000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		24	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+799	946685099.566508000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+800	946685099.570684000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	470	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+801	946685099.646568000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		471	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+802	946685099.646631000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+803	946685099.655551000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		25	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+804	946685099.655613000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+805	946685099.673088000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	472	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+806	946685099.775506000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	473	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+807	946685099.851587000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		474	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+808	946685099.851648000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+809	946685099.856548000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		26	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+810	946685099.856913000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		26	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+811	946685099.857400000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		26	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+812	946685099.857457000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+813	946685099.865316000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		27	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+814	946685099.865377000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+815	946685099.877892000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	475	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+816	946685099.980280000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	476	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+817	946685100.082694000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	477	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+818	946685100.089543000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		478	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+819	946685100.089607000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		478	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+820	946685100.090250000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		478	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+821	946685100.090631000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		478	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+822	946685100.090685000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+823	946685100.185081000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	479	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+824	946685100.287494000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	480	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+825	946685100.302914000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		28	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+826	946685100.302974000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+827	946685100.304395000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		481	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+828	946685100.367477000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		482	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+829	946685100.367934000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		482	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+830	946685100.368299000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		482	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+831	946685100.370054000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		482	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+832	946685100.370127000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+833	946685100.378420000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		483	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+834	946685100.378898000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		483	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+835	946685100.378962000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+836	946685100.383725000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		29	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+837	946685100.383786000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+838	946685100.389899000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	484	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+839	946685100.492291000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	485	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+840	946685100.584286000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		486	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+841	946685100.584354000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+842	946685100.594691000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	487	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+843	946685100.697100000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	488	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+844	946685100.799507000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	489	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+845	946685100.803141000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		30	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+846	946685100.803203000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+847	946685100.901887000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	490	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+848	946685101.004300000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	491	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+849	946685101.106685000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	492	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+850	946685101.209098000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	493	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+851	946685101.311505000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	494	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+852	946685101.319287000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		31	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+853	946685101.319348000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+854	946685101.320771000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		495	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+855	946685101.413885000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	496	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+856	946685101.516306000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	497	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+857	946685101.613254000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		32	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+858	946685101.613316000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+859	946685101.618713000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	498	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+860	946685101.627939000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		33	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+861	946685101.628003000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+862	946685101.721106000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	499	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+863	946685101.731272000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		500	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+864	946685101.731334000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+865	946685101.738840000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		34	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+866	946685101.738900000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+867	946685101.820699000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		501	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+868	946685101.820761000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+869	946685101.823513000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	502	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+870	946685101.824661000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		35	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+871	946685101.825006000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		35	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+872	946685101.825318000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		35	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+873	946685101.825368000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+874	946685101.827935000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		36	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+875	946685101.828376000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		36	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+876	946685101.828864000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		36	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+877	946685101.828921000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+878	946685101.838549000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		503	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+879	946685101.838612000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+880	946685101.843653000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		37	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+881	946685101.844135000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		37	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+882	946685101.844831000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		37	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+883	946685101.845594000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		37	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+884	946685101.845650000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+885	946685101.925892000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	504	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+886	946685101.950812000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		505	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+887	946685101.950873000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+888	946685102.028290000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	506	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+889	946685102.064451000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		507	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+890	946685102.064520000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+891	946685102.075506000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		508	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+892	946685102.075569000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+893	946685102.080366000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		38	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+894	946685102.080428000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+895	946685102.087614000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		509	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+896	946685102.087683000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+897	946685102.105616000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		510	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+898	946685102.105679000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+899	946685102.130700000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	511	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+900	946685102.146413000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		512	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+901	946685102.146476000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+902	946685102.156448000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		513	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+903	946685102.156516000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+904	946685102.161073000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		39	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+905	946685102.161134000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+906	946685102.176550000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		514	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+907	946685102.176617000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+908	946685102.181290000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		40	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+909	946685102.181352000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+910	946685102.231465000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		515	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+911	946685102.231524000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+912	946685102.233118000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	516	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+913	946685102.236192000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		41	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+914	946685102.236254000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+915	946685102.284467000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		517	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+916	946685102.284535000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+917	946685102.289381000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		42	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+918	946685102.289443000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+919	946685102.295576000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		518	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+920	946685102.295642000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+921	946685102.307595000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		519	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+922	946685102.307659000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+923	946685102.312439000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		43	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+924	946685102.312500000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+925	946685102.334288000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		44	False	True				True	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+926	946685102.334351000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+927	946685102.335513000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	520	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+928	946685102.336472000	2	0				ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		521	False	True				False	True	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+929	946685102.437911000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	522	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+930	946685102.490260000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		523	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+931	946685102.490325000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+932	946685102.540302000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	524	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+933	946685102.642714000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	525	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+934	946685102.694373000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		45	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+935	946685102.694434000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+936	946685102.721012000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		46	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+937	946685102.721071000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+938	946685102.745110000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	526	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+939	946685102.847526000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	527	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+940	946685102.949901000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	528	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+941	946685102.952763000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		529	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+942	946685102.952825000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+943	946685102.957745000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		530	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+944	946685102.957808000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+945	946685103.052313000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	531	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+946	946685103.154718000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	532	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+947	946685103.163361000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		47	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+948	946685103.163421000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+949	946685103.257101000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	533	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+950	946685103.359521000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	534	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+951	946685103.461902000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	535	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+952	946685103.564322000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	536	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+953	946685103.666720000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	537	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+954	946685103.769115000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	538	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+955	946685103.871527000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	539	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+956	946685103.973902000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	540	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+957	946685104.076320000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	541	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+958	946685104.178717000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	542	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+959	946685104.281125000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	543	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+960	946685104.383526000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	544	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+961	946685104.485919000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	545	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+962	946685104.588328000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	546	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+963	946685104.616078000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	547	False	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+964	946685104.617024000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	547	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+965	946685104.618070000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	547	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+966	946685104.619774000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	547	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+967	946685104.622510000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	547	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+968	946685104.627438000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	547	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+969	946685104.631422000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	547	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+970	946685104.643059000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		548	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+971	946685104.643231000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		548	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+972	946685104.643645000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		548	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+973	946685104.644814000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		548	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+974	946685104.644876000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		548	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+975	946685104.647910000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		548	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+976	946685104.647966000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+977	946685104.690708000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	549	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+978	946685104.724178000	0	4			8	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	55	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+979	946685104.756858000	0	4			11	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	56	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+980	946685104.757532000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	550	False	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+981	946685104.757763000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+982	946685104.790951000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		57	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+983	946685104.791227000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		57	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+984	946685104.791618000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		57	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+985	946685104.793129000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	551	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+986	946685104.865554000	0	4			9	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	60	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+987	946685104.866224000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	552	False	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+988	946685104.867327000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	552	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+989	946685104.868686000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	552	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+990	946685104.869625000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	552	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+991	946685104.870668000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	552	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+992	946685104.873656000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	552	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+993	946685104.876553000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	552	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+994	946685104.895526000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	553	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+995	946685104.898196000	0	4			12	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	ff:ff:ff:ff:ff:ff	6d617274696e657433	61	False	False				False	False	ff:ff:ff:ff:ff:ff	00:16:bc:3d:aa:57	0
+996	946685104.898851000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	554	False	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+997	946685104.899829000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	554	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+998	946685104.900880000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	554	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+999	946685104.902836000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	554	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+1000	946685104.904305000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	554	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+1001	946685104.909659000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	554	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+1002	946685104.913478000	0	5			11	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	554	True	False				False	False	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	0
+1003	946685104.997914000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	555	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1004	946685105.100314000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	556	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1005	946685105.202729000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	557	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1006	946685105.305124000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	558	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1007	946685105.407521000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	559	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1008	946685105.509924000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	560	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1009	946685105.612328000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	561	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1010	946685105.643068000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		562	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+1011	946685105.643130000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+1012	946685105.643740000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		562	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+1013	946685105.643798000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+1014	946685105.644304000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		562	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+1015	946685105.644360000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+1016	946685105.646045000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		562	True	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+1017	946685105.646096000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+1018	946685105.648384000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		62	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+1019	946685105.648770000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		62	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+1020	946685105.649576000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		62	True	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+1021	946685105.649634000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1022	946685105.714728000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	563	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1023	946685105.817129000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	564	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1024	946685105.919539000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	565	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1025	946685106.021919000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	566	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1026	946685106.124329000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	567	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1027	946685106.226737000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	568	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1028	946685106.329131000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	569	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1029	946685106.431549000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	570	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1030	946685106.533918000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	571	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1031	946685106.636333000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	572	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1032	946685106.738739000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	573	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1033	946685106.841135000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	574	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1034	946685106.943552000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	575	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1035	946685107.045925000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	576	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1036	946685107.148344000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	577	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1037	946685107.250729000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	578	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1038	946685107.353137000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	579	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1039	946685107.455558000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	580	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1040	946685107.478318000	2	4				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		63	False	False				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1041	946685107.478557000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1042	946685107.557921000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	581	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1043	946685107.660327000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	582	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1044	946685107.762742000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	583	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1045	946685107.865143000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	584	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1046	946685107.967561000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	585	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1047	946685108.069932000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	586	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1048	946685108.172342000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	587	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1049	946685108.274745000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	588	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1050	946685108.377142000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	589	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1051	946685108.479560000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	590	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1052	946685108.581945000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	591	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1053	946685108.684351000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	592	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1054	946685108.786752000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	593	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1055	946685108.889147000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	594	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1056	946685108.991556000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	595	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1057	946685109.093948000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	596	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1058	946685109.196352000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	597	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1059	946685109.298757000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	598	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1060	946685109.401152000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	599	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1061	946685109.503559000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	600	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1062	946685109.605956000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	601	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1063	946685109.615030000	2	4				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		64	False	False				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1064	946685109.615266000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1065	946685109.615643000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		602	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+1066	946685109.615696000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+1067	946685109.638037000	2	4				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		65	True	False				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1068	946685109.638274000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1069	946685109.640149000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		66	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+1070	946685109.640209000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1071	946685109.708344000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	603	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1072	946685109.810743000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	604	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1073	946685109.830751000	2	0				00:16:bc:3d:aa:57	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e		605	False	True				False	True	00:16:bc:3d:aa:57	00:01:e3:42:9e:2b	0
+1074	946685109.830815000	1	13				00:01:e3:41:bd:6e					False	False				False	False			0
+1075	946685109.913141000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	606	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1076	946685110.015571000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	607	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1077	946685110.117941000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	608	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1078	946685110.142068000	2	4				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		67	False	False				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1079	946685110.142304000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1080	946685110.220341000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	609	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1081	946685110.322763000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	610	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1082	946685110.425161000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	611	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1083	946685110.425648000	2	4				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		68	True	False				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1084	946685110.425883000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1085	946685110.427753000	2	0				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		69	False	True				True	False	00:01:e3:42:9e:2b	00:16:bc:3d:aa:57	0
+1086	946685110.427813000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1087	946685110.527559000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	612	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1088	946685110.629963000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	613	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1089	946685110.732363000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	614	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1090	946685110.834766000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	615	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1091	946685110.929493000	2	4				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		70	False	False				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1092	946685110.929743000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1093	946685110.937160000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	616	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1094	946685111.039581000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	617	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1095	946685111.141947000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	618	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1096	946685111.244369000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	619	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1097	946685111.346763000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	620	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1098	946685111.449171000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	621	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1099	946685111.551570000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	622	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1100	946685111.653971000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	623	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1101	946685111.756366000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	624	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1102	946685111.858771000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	625	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1103	946685111.961175000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	626	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1104	946685111.961959000	2	4				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		71	True	False				True	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1105	946685111.962188000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1106	946685111.965513000	0	12				00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	00:01:e3:41:bd:6e		72	False	False		0x0003		False	False	00:01:e3:41:bd:6e	00:16:bc:3d:aa:57	0
+1107	946685111.965737000	1	13				00:16:bc:3d:aa:57					False	False				False	False			0
+1108	946685112.063570000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	627	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1109	946685112.165955000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	628	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1110	946685112.268372000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	629	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1111	946685112.370759000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	630	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1112	946685112.473177000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	631	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1113	946685112.575578000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	632	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1114	946685112.677979000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	633	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1115	946685112.780364000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	634	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1116	946685112.882781000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	635	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1117	946685112.985178000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	636	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1118	946685113.087570000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	637	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1119	946685113.189964000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	638	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1120	946685113.292380000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	639	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1121	946685113.394775000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	640	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1122	946685113.497180000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	641	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1123	946685113.599582000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	642	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1124	946685113.701985000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	643	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1125	946685113.804383000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	644	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1126	946685113.906779000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	645	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1127	946685114.009181000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	646	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1128	946685114.111590000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	647	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1129	946685114.213968000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	648	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1130	946685114.316389000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	649	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1131	946685114.418773000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	650	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1132	946685114.521180000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	651	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1133	946685114.623592000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	652	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1134	946685114.725984000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	653	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1135	946685114.828391000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	654	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1136	946685114.930776000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	655	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1137	946685115.033194000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	656	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1138	946685115.135590000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	657	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1139	946685115.237978000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	658	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1140	946685115.340382000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	659	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1141	946685115.442791000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	660	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1142	946685115.545197000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	661	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1143	946685115.647590000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	662	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1144	946685115.750021000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	663	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1145	946685115.852396000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	664	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1146	946685115.954798000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	665	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1147	946685116.057193000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	666	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1148	946685116.159610000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	667	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1149	946685116.261981000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	668	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1150	946685116.364400000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	669	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1151	946685116.466799000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	670	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1152	946685116.569199000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	671	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1153	946685116.671599000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	672	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1154	946685116.773999000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	673	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1155	946685116.876405000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	674	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1156	946685116.978805000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	675	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1157	946685117.081207000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	676	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1158	946685117.183622000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	677	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1159	946685117.285987000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	678	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1160	946685117.388401000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	679	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1161	946685117.490797000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	680	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1162	946685117.593207000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	681	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1163	946685117.695603000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	682	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1164	946685117.797994000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	683	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1165	946685117.900393000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	684	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1166	946685118.002810000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	685	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1167	946685118.105207000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	686	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1168	946685118.207618000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	687	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1169	946685118.310031000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	688	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1170	946685118.412418000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	689	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1171	946685118.514816000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	690	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1172	946685118.617211000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	691	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1173	946685118.719609000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	692	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1174	946685118.822013000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	693	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1175	946685118.924409000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	694	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1176	946685119.026815000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	695	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1177	946685119.129211000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	696	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1178	946685119.231621000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	697	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1179	946685119.334015000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	698	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0
+1180	946685119.436420000	0	8			11	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	00:01:e3:41:bd:6e	6d617274696e657433	699	False	False				False	False	ff:ff:ff:ff:ff:ff	00:01:e3:41:bd:6e	0

@@ -1,0 +1,12 @@
+/build*/
+/cmake-build-*/
+/fuzz/corpus/
+/fuzz/artifacts/
+*.profraw
+*.profdata
+crash-*
+leak-*
+slow-unit-*
+timeout-*
+oom-*
+.DS_Store

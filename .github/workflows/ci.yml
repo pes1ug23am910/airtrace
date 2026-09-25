@@ -1,0 +1,113 @@
+name: C11 CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    name: Build and test (${{ matrix.os }}, ${{ matrix.compiler }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        compiler: [gcc, clang]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select compiler
+        shell: bash
+        run: |
+          if [[ "$RUNNER_OS" == "macOS" && "${{ matrix.compiler }}" == "gcc" ]]; then
+            brew list gcc >/dev/null 2>&1 || brew install gcc
+            for candidate in "$(brew --prefix gcc)"/bin/gcc-[0-9]*; do
+              if [[ -x "$candidate" ]]; then
+                echo "CC=$candidate" >> "$GITHUB_ENV"
+                "$candidate" --version
+                exit 0
+              fi
+            done
+            echo "Homebrew GCC executable not found" >&2
+            exit 1
+          fi
+          echo "CC=${{ matrix.compiler }}" >> "$GITHUB_ENV"
+          "${{ matrix.compiler }}" --version
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build --parallel
+      - run: ctest --test-dir build --output-on-failure
+
+  sanitizers:
+    name: ASan and UBSan (${{ matrix.os }}, ${{ matrix.compiler }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        compiler: [gcc, clang]
+    env:
+      ASAN_OPTIONS: halt_on_error=1:abort_on_error=1:detect_leaks=0
+      UBSAN_OPTIONS: halt_on_error=1:print_stacktrace=1
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select compiler
+        shell: bash
+        run: |
+          if [[ "$RUNNER_OS" == "macOS" && "${{ matrix.compiler }}" == "gcc" ]]; then
+            brew list gcc >/dev/null 2>&1 || brew install gcc
+            for candidate in "$(brew --prefix gcc)"/bin/gcc-[0-9]*; do
+              if [[ -x "$candidate" ]]; then
+                echo "CC=$candidate" >> "$GITHUB_ENV"
+                "$candidate" --version
+                exit 0
+              fi
+            done
+            echo "Homebrew GCC executable not found" >&2
+            exit 1
+          fi
+          echo "CC=${{ matrix.compiler }}" >> "$GITHUB_ENV"
+          "${{ matrix.compiler }}" --version
+      - run: cmake -S . -B build-asan -DCMAKE_BUILD_TYPE=Debug -DAIRTRACE_SANITIZE=ON
+      - run: cmake --build build-asan --parallel
+      - run: ctest --test-dir build-asan --output-on-failure
+
+  fuzz-smoke:
+    name: libFuzzer 60 seconds (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    env:
+      ASAN_OPTIONS: halt_on_error=1:abort_on_error=1:detect_leaks=0
+      UBSAN_OPTIONS: halt_on_error=1:print_stacktrace=1
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Clang with libFuzzer
+        shell: bash
+        run: |
+          if [[ "$RUNNER_OS" == "macOS" ]]; then
+            brew list llvm >/dev/null 2>&1 || brew install llvm
+            echo "CC=$(brew --prefix llvm)/bin/clang" >> "$GITHUB_ENV"
+          else
+            echo "CC=clang" >> "$GITHUB_ENV"
+          fi
+      - run: cmake -S . -B build-fuzz -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAIRTRACE_FUZZ=ON -DBUILD_TESTING=OFF
+      - run: cmake --build build-fuzz --parallel
+      - name: Extract sample-capture seed corpus
+        shell: bash
+        run: |
+          mkdir -p fuzz/corpus fuzz/artifacts
+          build-fuzz/airtrace_seed tests/fixtures/wpa-Induction.pcap fuzz/corpus induction
+          build-fuzz/airtrace_seed tests/fixtures/Network_Join_Nokia_Mobile.pcap fuzz/corpus nokia
+      - name: Fuzz parser
+        run: build-fuzz/airtrace_fuzz fuzz/corpus -max_total_time=60 -timeout=10 -max_len=65536 -artifact_prefix=fuzz/artifacts/ -print_final_stats=1
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: fuzz-artifacts-${{ matrix.os }}
+          path: fuzz/artifacts/
+          if-no-files-found: ignore

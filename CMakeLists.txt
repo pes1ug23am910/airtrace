@@ -1,0 +1,61 @@
+cmake_minimum_required(VERSION 3.20)
+project(airtrace VERSION 0.1.0 LANGUAGES C)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
+option(AIRTRACE_SANITIZE "Instrument tests and applications with ASan and UBSan" OFF)
+option(AIRTRACE_FUZZ "Build the Clang libFuzzer parser target" OFF)
+
+if(NOT CMAKE_C_COMPILER_ID MATCHES "GNU|Clang")
+    message(FATAL_ERROR "v0.1 supports GCC and Clang; MSVC support is planned later")
+endif()
+add_compile_options(-Wall -Wextra -Wpedantic -Werror)
+if(AIRTRACE_SANITIZE)
+    add_compile_options(-fsanitize=address,undefined -fno-omit-frame-pointer)
+    add_link_options(-fsanitize=address,undefined -fno-omit-frame-pointer)
+endif()
+
+add_library(airtrace_lib STATIC src/airtrace.c src/pcap.c)
+set_target_properties(airtrace_lib PROPERTIES OUTPUT_NAME airtrace)
+target_include_directories(airtrace_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+add_executable(airtrace src/main.c)
+target_link_libraries(airtrace PRIVATE airtrace_lib)
+add_executable(airtrace_bench bench/benchmark.c)
+target_link_libraries(airtrace_bench PRIVATE airtrace_lib)
+add_executable(airtrace_seed fuzz/extract_seeds.c)
+target_link_libraries(airtrace_seed PRIVATE airtrace_lib)
+
+include(CTest)
+if(BUILD_TESTING)
+    add_library(unity STATIC third_party/unity/unity.c)
+    target_include_directories(unity PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/unity)
+    add_executable(airtrace_unit_tests tests/test_airtrace.c)
+    target_link_libraries(airtrace_unit_tests PRIVATE airtrace_lib unity)
+    add_test(NAME unit COMMAND airtrace_unit_tests)
+    add_executable(airtrace_golden_tests tests/test_golden.c)
+    target_link_libraries(airtrace_golden_tests PRIVATE airtrace_lib unity)
+    add_test(NAME golden COMMAND airtrace_golden_tests ${CMAKE_CURRENT_SOURCE_DIR}/tests/fixtures)
+    add_test(NAME cli COMMAND ${CMAKE_COMMAND} -DAIRTRACE=$<TARGET_FILE:airtrace>
+             -DFIXTURES=${CMAKE_CURRENT_SOURCE_DIR}/tests/fixtures -DWORK=${CMAKE_CURRENT_BINARY_DIR}
+             -P ${CMAKE_CURRENT_SOURCE_DIR}/tests/cli.cmake)
+endif()
+
+if(AIRTRACE_FUZZ)
+    if(NOT CMAKE_C_COMPILER_ID MATCHES "Clang")
+        message(FATAL_ERROR "AIRTRACE_FUZZ requires Clang with libFuzzer")
+    endif()
+    # Instrument parser code itself, not only the driver, for useful coverage.
+    add_library(airtrace_fuzz_lib STATIC src/airtrace.c)
+    target_include_directories(airtrace_fuzz_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+    target_compile_options(airtrace_fuzz_lib PRIVATE -fsanitize=fuzzer-no-link,address,undefined
+                           -fno-omit-frame-pointer -UNDEBUG)
+    add_executable(airtrace_fuzz fuzz/fuzz_parse.c)
+    target_link_libraries(airtrace_fuzz PRIVATE airtrace_fuzz_lib)
+    target_compile_options(airtrace_fuzz PRIVATE -fsanitize=fuzzer-no-link,address,undefined
+                           -fno-omit-frame-pointer -UNDEBUG)
+    target_link_options(airtrace_fuzz PRIVATE -fsanitize=fuzzer,address,undefined)
+endif()
+
+install(TARGETS airtrace airtrace_lib RUNTIME DESTINATION bin ARCHIVE DESTINATION lib)
+install(FILES include/airtrace.h include/airtrace_pcap.h DESTINATION include)
