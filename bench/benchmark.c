@@ -1,3 +1,7 @@
+#if defined(__APPLE__)
+/* sysctl's Darwin headers require BSD types alongside POSIX timing APIs. */
+#define _DARWIN_C_SOURCE
+#endif
 #define _POSIX_C_SOURCE 200809L
 #include "airtrace_pcap.h"
 
