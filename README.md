@@ -157,6 +157,7 @@ The CLI test parses every JSONL record and checks summaries and error behavior.
 See [fixture provenance](tests/fixtures/README.md) for capture URLs, SHA-256 hashes,
 tshark version, selected fields, and commands to regenerate reference data.
 Unity's upstream license is retained in [third_party/unity/LICENSE.txt](third_party/unity/LICENSE.txt).
+Third-party attributions are collected in [NOTICE](NOTICE).
 
 ## Fuzzing
 

@@ -1,0 +1,19 @@
+airtrace includes third-party material. Each item keeps its own terms.
+
+Test captures: tests/fixtures/*.pcap
+  wpa-Induction.pcap and Network_Join_Nokia_Mobile.pcap are unmodified
+  sample captures from the Wireshark SampleCaptures collection:
+  https://wiki.wireshark.org/SampleCaptures
+  Credit to the Wireshark project and the original contributors. No license
+  was attached to these downloads. They are included only as test data; this
+  project claims no ownership of them and does not relicense them. Source
+  URLs and SHA-256 hashes are listed in tests/fixtures/README.md.
+
+Test framework: third_party/unity/
+  Unity by ThrowTheSwitch.org, MIT License.
+  Copyright (c) 2007-25 Mike Karlesky, Mark VanderVoord, & Greg Williams.
+  See third_party/unity/LICENSE.txt.
+
+Reference data: tests/fixtures/*.tsv
+  Field values exported from the captures above with tshark 4.2.2
+  (Wireshark). The exact command is in tools/regenerate-golden.sh.
