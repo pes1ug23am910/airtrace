@@ -36,6 +36,10 @@ jobs:
         env:
           LAB_SPLIT: ${{ inputs.split }}
         run: sudo .local/venv/bin/python -m lab.run_lab --binary "$PWD/build/airtrace" --per-class 12 --split "$LAB_SPLIT" --seed-base 1000 --out .local/dataset
+      - name: Return dataset ownership to the runner user
+        # The lab runs as root; validation and upload run as the runner user.
+        if: always()
+        run: sudo chown -R "$(id -u):$(id -g)" .local/dataset
       - name: Validate dataset with airtrace
         if: always()
         env:
