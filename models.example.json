@@ -1,0 +1,47 @@
+{
+  "_comment": "Copy to models.json, replace model with an explicitly chosen installed/provider model ID, and opt into remote calls only when intended. No default model is selected. Remove unused entries. api_key_env names an environment variable; never put a key here. supports_seed is provider-specific and defaults to false. Optional input_price_inr_per_million, output_price_inr_per_million and cached_input_price_inr_per_million fields estimate INR cost from returned usage; null means unknown. context_length is a conservative local planning budget, not a verified provider maximum; confirm server configuration before running. Requests use a conservative byte-based estimate and may be refused before the provider limit.",
+  "models": [
+    {
+      "_comment": "Local Ollama OpenAI-compatible server; install a suitable model separately.",
+      "name": "local-example",
+      "base_url": "http://localhost:11434/v1",
+      "model": "REPLACE_WITH_LOCAL_MODEL_ID",
+      "api_key_env": "",
+      "supports_tools": true,
+      "rpm": 30,
+      "input_price_inr_per_million": 0,
+      "output_price_inr_per_million": 0,
+      "cached_input_price_inr_per_million": 0,
+      "context_length": 32768,
+      "max_tokens": 4096
+    },
+    {
+      "_comment": "Gemini OpenAI-compatible endpoint; check tool and seed support for the selected model.",
+      "name": "gemini-example",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "model": "REPLACE_WITH_PROVIDER_MODEL_ID",
+      "api_key_env": "GEMINI_API_KEY",
+      "supports_tools": true,
+      "rpm": 15,
+      "input_price_inr_per_million": null,
+      "output_price_inr_per_million": null,
+      "cached_input_price_inr_per_million": null,
+      "context_length": 131072,
+      "max_tokens": 4096
+    },
+    {
+      "_comment": "Generic hosted Chat Completions provider; replace the URL and model ID.",
+      "name": "hosted-example",
+      "base_url": "https://provider.example/v1",
+      "model": "REPLACE_WITH_PROVIDER_MODEL_ID",
+      "api_key_env": "TRIAGE_API_KEY",
+      "supports_tools": true,
+      "rpm": 30,
+      "input_price_inr_per_million": null,
+      "output_price_inr_per_million": null,
+      "cached_input_price_inr_per_million": null,
+      "context_length": 131072,
+      "max_tokens": 4096
+    }
+  ]
+}

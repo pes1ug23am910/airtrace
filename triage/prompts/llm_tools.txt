@@ -1,0 +1,4 @@
+Inspect this connection attempt using the available tools. You may cite frame
+numbers or log line numbers returned by tools. You have at most ten tool rounds.
+The tool schemas list the log sources available in this observation view.
+Request specific observations, then return your Diagnosis JSON.

@@ -1,0 +1,70 @@
+{
+  "_comment": "Provider identifiers and prices supplied for this evaluation; no service is contacted by loading this file. Prices are INR per million tokens. Null free-tier prices remain unknown cost, not an assertion of zero billing. rpm=30 is a local throttle unless an explicit provider limit is given. context_length is a conservative local planning budget, not a verified provider maximum; confirm server configuration before running. Requests use a conservative byte-based estimate and may be refused before the provider limit.",
+  "models": [
+    {
+      "name": "jarvislabs-gpt-oss-120b",
+      "base_url": "https://models.jarvislabs.net/v1",
+      "model": "gpt-oss-120b",
+      "api_key_env": "JARVISLABS_API_KEY",
+      "supports_tools": true,
+      "rpm": 30,
+      "input_price_inr_per_million": 9.477,
+      "output_price_inr_per_million": 39.803,
+      "cached_input_price_inr_per_million": 4.739,
+      "context_length": 131072,
+      "max_tokens": 8192
+    },
+    {
+      "name": "jarvislabs-gemma-4-31b",
+      "base_url": "https://models.jarvislabs.net/v1",
+      "model": "gemma-4-31b-it",
+      "api_key_env": "JARVISLABS_API_KEY",
+      "supports_tools": true,
+      "rpm": 30,
+      "input_price_inr_per_million": 9.477,
+      "output_price_inr_per_million": 32.222,
+      "cached_input_price_inr_per_million": null,
+      "context_length": 131072,
+      "max_tokens": 4096
+    },
+    {
+      "name": "jarvislabs-qwen-3.8-27b",
+      "base_url": "https://models.jarvislabs.net/v1",
+      "model": "qwen-3.8-27b-fp8",
+      "api_key_env": "JARVISLABS_API_KEY",
+      "supports_tools": true,
+      "rpm": 30,
+      "input_price_inr_per_million": 28.431,
+      "output_price_inr_per_million": 222.709,
+      "cached_input_price_inr_per_million": null,
+      "context_length": 131072,
+      "max_tokens": 4096
+    },
+    {
+      "name": "gemini-3.5-flash",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "model": "gemini-3.5-flash",
+      "api_key_env": "GEMINI_API_KEY",
+      "supports_tools": true,
+      "rpm": 8,
+      "input_price_inr_per_million": null,
+      "output_price_inr_per_million": null,
+      "cached_input_price_inr_per_million": null,
+      "context_length": 131072,
+      "max_tokens": 4096
+    },
+    {
+      "name": "ollama-qwen3.5-9b",
+      "base_url": "http://localhost:11434/v1",
+      "model": "qwen3.5:9b",
+      "api_key_env": "",
+      "supports_tools": true,
+      "rpm": 30,
+      "input_price_inr_per_million": 0,
+      "output_price_inr_per_million": 0,
+      "cached_input_price_inr_per_million": 0,
+      "context_length": 32768,
+      "max_tokens": 4096
+    }
+  ]
+}
