@@ -16,21 +16,26 @@ SCRUB_RULES = {
 CONTROL_LINE = re.compile(r"ctrl_iface", re.IGNORECASE)
 
 
-def scrub_control_lines(text: str) -> tuple[str, int]:
-    """Retained lines are original daemon lines, with no replacement marker."""
+def retained_control_line_indexes(lines: list[str]) -> list[int]:
+    """Indexes let timestamp records follow the same uniform removal rule."""
     kept = []
-    removed = 0
     continuation = False
-    for line in text.splitlines(keepends=True):
+    for index, line in enumerate(lines):
         is_echo = bool(CONTROL_LINE.search(line))
         is_continuation = continuation and (not line.strip() or bool(re.match(r"^[ \t]+\S", line)))
         if is_echo or is_continuation:
-            removed += 1
             continuation = True
         else:
-            kept.append(line)
+            kept.append(index)
             continuation = False
-    return "".join(kept), removed
+    return kept
+
+
+def scrub_control_lines(text: str) -> tuple[str, int]:
+    """Retained lines are original daemon lines, with no replacement marker."""
+    lines = text.splitlines(keepends=True)
+    kept = retained_control_line_indexes(lines)
+    return "".join(lines[index] for index in kept), len(lines) - len(kept)
 
 
 def scrub_bundle_logs(directory: Path) -> dict:

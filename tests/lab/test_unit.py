@@ -152,6 +152,7 @@ def test_failed_run_is_recorded_and_cleanup_runs(tmp_path, monkeypatch):
     class FailingExecutor:
         def __init__(self, directory):
             self.records = [{"argv": ["modprobe", "mac80211_hwsim"], "error": "unavailable"}]
+            self.observation_end = None
 
         def execute(self, step):
             raise RuntimeError("synthetic setup failure")
@@ -159,6 +160,9 @@ def test_failed_run_is_recorded_and_cleanup_runs(tmp_path, monkeypatch):
         def cleanup(self, commands):
             cleaned.extend(commands)
             return []
+
+        def close_observation(self):
+            raise ValueError("no capture from failed setup")
 
     monkeypatch.setattr("lab.run_lab.Executor", FailingExecutor)
     bundle = tmp_path / "failure"
@@ -187,7 +191,7 @@ def test_observe_retains_failed_dev_and_does_not_load_test(tmp_path, monkeypatch
     write_manifest(tmp_path, 1000, "a" * 40)
     loaded = []
 
-    def failed_load(path, binary=None):
+    def failed_load(path, binary=None, **kwargs):
         loaded.append(path.name)
         raise ValueError("empty pcap")
 
@@ -220,7 +224,7 @@ def test_f1_opaque_bundle_names_and_manifest_do_not_reveal_class(tmp_path):
         assert json.loads((bundle / "meta.json").read_text(encoding="utf-8"))["label"] == class_id
     manifest = verify_manifest(tmp_path)
     assert len({entry["id"] for entry in manifest["bundles"]}) == len(CLASS_IDS)
-    rendered_manifest = json.dumps(manifest)
+    rendered_manifest = json.dumps(manifest["bundles"])
     for class_id in CLASS_IDS:
         assert class_id not in rendered_manifest
     for path in tmp_path.rglob("*"):
@@ -279,12 +283,16 @@ def test_r1_f6_absent_server_log_is_empty_without_harness_text(tmp_path, monkeyp
     class FailingExecutor:
         def __init__(self, directory):
             self.records = []
+            self.observation_end = None
 
         def execute(self, step):
             raise RuntimeError("synthetic setup failure")
 
         def cleanup(self, commands):
             return []
+
+        def close_observation(self):
+            raise ValueError("no capture from failed setup")
 
     monkeypatch.setattr("lab.run_lab.Executor", FailingExecutor)
     directory = tmp_path / bundle_id("dhcp_no_server", 1000)

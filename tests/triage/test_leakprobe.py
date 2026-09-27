@@ -9,7 +9,7 @@ import pytest
 
 from lab.manifest import write_manifest
 from lab.scenarios import bundle_id
-from tests.triage.fixtures.build import build_bundle
+from tests.triage.fixtures.build import build_bundle, refresh_window
 from triage.data import load_bundle
 from triage.leakprobe import compare, fit_centroids, main, metadata_features, predict, probe
 
@@ -25,6 +25,7 @@ def dataset(tmp_path):
                 # An intentionally contaminated client-visible volume signal.
                 (path / "wpa_supplicant.log").write_text("observation line\n" * length,
                                                        encoding="utf-8")
+                refresh_window(path)
     write_manifest(directory, 1000, "synthetic")
     return directory
 
@@ -62,7 +63,7 @@ def test_r12_feature_view_contains_only_sizes_counts_and_duration(dataset, binar
                              "frame_count", "duration_seconds"}
     assert features["wpa_supplicant_lines"] == 1
     assert features["frame_count"] == 8
-    assert features["duration_seconds"] == 1
+    assert features["duration_seconds"] == 10
     assert all(type(value) in (int, float) for value in features.values())
     bundle.meta["label"] = "ap_full"
     bundle.meta["parameters"] = {"ssid": "different"}

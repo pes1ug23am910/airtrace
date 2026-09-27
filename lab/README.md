@@ -14,13 +14,16 @@ Each seed independently chooses SSIDs, passwords, locally administered unicast
 MAC addresses, a channel from 1â€“11, and startup delays. No 5 GHz channels are used.
 Both the on-air and alternate SSID use the same prefix, length, and alphabet.
 Bundle directories use 12-character hashes of the injection class and seed;
-the label is stored only in `meta.json`, never in generated path names.
+each bundle's label is stored in `meta.json`, never in generated path names.
+The manifest's per-class outcome summary is owner-only metadata, outside arm inputs.
 
 Use the manual **Wi-Fi fault lab** GitHub Actions workflow (`lab.yml`) on
 `ubuntu-22.04`. It builds airtrace, installs the lab utilities, generates the
 selected split, validates it, and uploads all outputs even when a run fails. Its
 optional `split` input is `dev`, `test`, or `all` (default); its timeout is 330 minutes. The workflow
-has not been executed for this addition. When checked in September 2026, Ubuntu 24.04
+produced an earlier 36-bundle dev artifact in run `36303238429`; that artifact
+predates observation-window sealing. This revision still needs a Linux run.
+When checked in September 2026, Ubuntu 24.04
 hosted runners and WSL2 did not supply this module.
 
 On a dedicated Linux machine with the dependencies installed:
@@ -55,15 +58,40 @@ There is no bridge or veth shortcut. The BusyBox udhcpc script configures only t
 address and never rewrites the host resolver configuration. `ap_full` waits until
 the occupying station completes WPA and hostapd reports it authorized before
 starting the tested station. `ap_deauth` requires a completed connection before
-issuing the deauthentication. `ok` requires WPA completion and an assigned DHCP
-address; `dhcp_no_server` requires WPA completion. These are injection/control
-preconditions, not class-specific packet-signature assumptions.
+issuing the deauthentication. Final WPA/IPv4/AP association outcomes are recorded
+for every class. They do not determine acceptance: a failed control outcome or
+a recovered failure scenario must remain visible in the results without relabelling.
 
 Every run observes the tested station for at least 30 seconds. Setup and polling
 are bounded, each background process also runs under GNU `timeout`, and a finally
 block terminates process groups before deleting owned namespaces and unloading
 the module. The generator refuses a host with existing Wi-Fi phys or a loaded
 hwsim module. Use an otherwise idle disposable host.
+
+The observation closes immediately after the scenario's observation wait ends,
+or when scenario execution fails or times out. One identical closing procedure
+records `observation_end` in wall-clock nanoseconds and monotonic nanoseconds,
+stops tcpdump, and seals the four visible logs and capture **before** verification
+queries or daemon shutdown. Scenario start is recorded immediately before starting
+the tested station, separately from the start of harness setup.
+
+Daemon pipes are continuously drained into `raw/` files with hidden per-line
+receipt times. Visible snapshots retain only original lines received by the
+cutoff, with any embedded hostap `-t` timestamp also at or before it. This handles
+DHCP logs that have no timestamp without adding text to model-visible lines.
+Classic-pcap records are copied byte for byte only when their timestamps are at
+or before the same wall-clock cutoff; microsecond/nanosecond and both byte orders
+are supported. Control echoes are scrubbed from the snapshot as defence in depth.
+Later verification and shutdown output stays in `raw/` and cannot alter the snapshot.
+Receipt timing can conservatively omit buffered lines produced before the cutoff
+but delivered afterward; it is not an exact daemon emission timestamp.
+
+Metadata stores the cutoff, visible-file hashes, per-line receipts and packet
+counts. Dataset loading rejects evidence beyond that boundary, including altered
+timestamps with refreshed file hashes. The existing dev artifact predates this
+provenance: `lab.observe` can inspect it with an explicit legacy warning, but it
+cannot be certified as bounded evidence for evaluation. Regenerate bundles rather
+than inventing a retrospective cutoff. The raw files and metadata never enter an arm.
 
 A bundle includes the capture, the four model-visible logs, metadata, generated
 configs, control-process logs, and any DHCP lease files. Logs remain plain text
@@ -96,13 +124,13 @@ except in the no-server class. The class-specific checks are:
 
 | Class | Additional verification |
 | --- | --- |
-| `ok` | Station status is COMPLETED and its namespace has the DHCP subnet address. |
+| `ok` | Baseline configuration is loaded and daemons/control interfaces are responsive; final connection outcome is recorded separately. |
 | `wrong_passphrase` | Running processes consumed files with the generated unequal AP/station credentials. |
 | `akm_mismatch` | AP GET_CONFIG reports SAE and the running station consumed PSK-only configuration. |
 | `pmf_required_unsupported` | Running AP consumed `ieee80211w=2`; station GET_NETWORK reports 0. |
 | `mac_denied` | AP DENY_ACL SHOW includes the tested station address. |
 | `ap_full` | Running AP consumed `max_num_sta=1`; occupant STA query reports AUTHORIZED. |
-| `dhcp_no_server` | No server process was launched in the new AP namespace; station status is COMPLETED. |
+| `dhcp_no_server` | No server process was launched in the new AP namespace; final connection outcome is recorded separately. |
 | `ap_deauth` | A station COMPLETED status query precedes a successful AP deauthenticate acknowledgement. |
 | `ssid_not_found` | AP and station control queries report different generated SSIDs. |
 
@@ -115,16 +143,35 @@ details. Each completed capture is parsed with airtrace after shutdown and must
 contain at least one beacon whose BSSID matches the configured AP. Missing/empty
 captures, parser failures, or missing AP beacons fail capture health.
 
+After the window closes, `observed` records station `wpa_state`, a non-loopback
+IPv4 address on wlan1 (`ipv4_lease_present`), and AP `[ASSOC]`/`[AUTHORIZED]` flags
+for the tested station. Failed or malformed queries produce null/unknown values.
+Address presence alone does not independently prove DHCP origin; the isolated
+namespace and DHCP client provide the experiment context. Queries are sequential,
+so these describe post-window state, not an atomic snapshot of the cutoff instant.
+Neither these values nor their query errors quarantine or relabel a bundle.
+The manifest and dev observation table count failure classes that finish COMPLETED
+with an address, controls that do not, and unknown outcomes separately.
+
 `observe.py` reads only the dev split and reports quarantined counts. Its table reports observed status/reason
 codes, whether airtrace saw all four EAPOL message numbers for a client/BSSID
 pair, and DHCP-client lease log entries, followed by numbered status/reason log
 lines. Four observed messages do not prove a valid single exchange, matching
 replay counters, password validity, or a verified MIC. No class-specific packet
 signature assertions or trained baseline rules have been written yet.
+Reason codes are separated into AP-to-tested-station, tested-station-to-AP,
+AP broadcast, and other directions; broadcasts are not silently assigned
+to the tested station. First auth/association/classified EAPOL-Key times use capture timestamps
+for that station/AP pair. First DHCP activity uses the client log's hidden receipt
+time. The per-class timing summary states sample counts and unavailable values;
+legacy bundles without a recorded scenario start or receipts get no invented timing.
+The unchanged CLI exposes numbered EAPOL-Key messages, not arbitrary EAPOL traffic;
+the EAPOL timing therefore does not establish when an EAPOL-Start frame first appeared.
 
 This lab does not simulate RF propagation, distance, interference, real hardware
 drivers, firmware, roaming, or all real-world causes. A single job fixes a single
 kernel and tool-version environment. Held-out seeds and parameter range vary settings, not independent
 physical environments. Successful injection is not a guarantee that every fault
 produces a distinguishable capture or log signature. Linux execution remains to
-be verified; local unit tests cover rendering, planning, metadata, and integrity.
+be repeated for this window-sealing revision; local tests use fakes and byte-built
+captures for lifecycle ordering, rendering, planning, metadata, and integrity.

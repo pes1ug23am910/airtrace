@@ -56,8 +56,9 @@ class View:
 
 
 def load_bundle(path: str | Path, binary: str | Path | None = None,
-                timeout: float = 30) -> Bundle:
+                timeout: float = 30, *, require_window: bool = True) -> Bundle:
     from lab.manifest import validate_meta
+    from lab.window import validate_window
 
     path = Path(path)
     meta = json.loads((path / "meta.json").read_text(encoding="utf-8"))
@@ -87,5 +88,6 @@ def load_bundle(path: str | Path, binary: str | Path | None = None,
     for source in SOURCES:
         logs[source] = (path / (source + ".log")).read_text(
             encoding="utf-8", errors="replace").splitlines()
+    validate_window(meta, path, require=require_window)
     return Bundle(path, meta, frames, logs, "Frames: " + after,
                   completed.returncode, before)

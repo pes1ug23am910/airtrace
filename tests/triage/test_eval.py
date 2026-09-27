@@ -9,7 +9,7 @@ import httpx
 
 from lab.manifest import write_manifest
 from lab.scenarios import CLASS_IDS, bundle_id
-from tests.triage.fixtures.build import AP, SSID, STATION, build_bundle
+from tests.triage.fixtures.build import AP, SSID, STATION, build_bundle, refresh_window
 from triage import eval as evaluation
 from triage.fake import ScriptedModel, answer, envelope, tool_call
 from triage.freeze import freeze
@@ -382,6 +382,7 @@ def test_r6_preflight_checks_all_bundles_before_client_creation(evaluation_input
     root, dataset, models, binary = evaluation_inputs
     later = build_bundle(dataset / bundle_id("ok", 1001), seed=1001)
     (later / "wpa_supplicant.log").write_text("long log line\n" * 20000, encoding="utf-8")
+    refresh_window(later)
     write_manifest(dataset, 1000, "synthetic")
     entries = json.loads(models.read_text())
     entries[0]["context_length"] = 20000

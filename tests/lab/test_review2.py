@@ -4,24 +4,26 @@ import json
 from pathlib import Path
 from dataclasses import replace
 from types import SimpleNamespace
+from io import BytesIO
 
 import pytest
 
 from lab.manifest import VERSION_TOOLS, validate_meta, verify_manifest, write_manifest
-from lab.run_lab import command_plan, run_bundle, tool_versions
+from lab.run_lab import Executor, command_plan, run_bundle, tool_versions
 from lab.scenarios import CAUSAL_KEYS, CLASS_IDS, PARAMETER_RANGES, SCENARIOS, bundle_id, draw_parameters, render_configs
 from lab.scrub import SCRUB_RULES, scrub_bundle_logs, scrub_control_lines
 from lab.verify import check_capture_health, config_values, verification_commands, verify_injection
+from lab.window import LogRecorder
+from tests.triage.fixtures.build import capture_bytes
 
 
-def fake_run(monkeypatch, directory, class_id="dhcp_no_server", injection=True, capture=True):
+def fake_run(monkeypatch, directory, class_id="dhcp_no_server", injection=True, capture=True, observed_failure=False):
     """Fake daemons produce all visible text; the harness only retains/removes it."""
     produced = {}
 
-    class FakeExecutor:
+    class FakeExecutor(Executor):
         def __init__(self, directory):
-            self.records = []
-            self.processes = []
+            super().__init__(directory)
 
         def execute(self, step):
             if step["kind"] == "start":
@@ -29,10 +31,12 @@ def fake_run(monkeypatch, directory, class_id="dhcp_no_server", injection=True, 
                 if step["log"] in ("hostapd.log", "wpa_supplicant.log"):
                     text += "RX ctrl_iface - hexdump_ascii(len=40):\n    DEAUTHENTICATE 02:11:22:33:44:55 reason=3\n"
                 produced[step["log"]] = text
-                (directory / step["log"]).write_text(text, encoding="utf-8")
-                self.processes.append((SimpleNamespace(poll=lambda: None), None, step))
+                recorder = LogRecorder(BytesIO(text.encode()), directory / "raw" / step["log"]).start()
+                recorder.finish()
+                self.recorders[step["log"]] = recorder
+                self.processes.append((SimpleNamespace(poll=lambda: 0, returncode=0), recorder, step))
                 if step["log"] == "tcpdump.log":
-                    (directory / "capture.pcap").write_bytes(b"fake capture")
+                    (directory / "raw" / "capture.pcap").write_bytes(capture_bytes())
 
         def healthy(self):
             pass
@@ -43,6 +47,12 @@ def fake_run(monkeypatch, directory, class_id="dhcp_no_server", injection=True, 
     monkeypatch.setattr("lab.run_lab.Executor", FakeExecutor)
     monkeypatch.setattr("lab.run_lab.discover_phys", lambda: ["phy0", "phy1", "phy2"])
     monkeypatch.setattr("lab.run_lab.verify_injection", lambda *args: (injection, [{"check": "fake control", "passed": injection}]))
+    def observed(*args):
+        if observed_failure:
+            raise TimeoutError("synthetic final status timeout")
+        return {"wpa_state": "DISCONNECTED", "ipv4_lease_present": False,
+                "ap_associated": False, "ap_authorized": False}
+    monkeypatch.setattr("lab.run_lab.collect_observed", observed)
     monkeypatch.setattr("lab.run_lab.check_capture_health", lambda *args: {"healthy": capture, "ap_beacons": int(capture), "error": None})
     accepted = run_bundle(class_id, "dev", 1000, directory, "a" * 40, {"python": "fake"})
     return accepted, produced
@@ -131,11 +141,10 @@ def test_r9_class_injection_checks_use_control_queries_and_process_state(tmp_pat
     commands = verification_commands(class_id, 1000, tmp_path, parameters)
     outputs = {
         "ap_status": "state=ENABLED", "ap_config": f"ssid={parameters.ssid}\nkey_mgmt={'SAE' if class_id == 'akm_mismatch' else 'WPA-PSK'}",
-        "station_status": "wpa_state=COMPLETED",
+        "station_status": "wpa_state=DISCONNECTED" if class_id in ("ok", "dhcp_no_server") else "wpa_state=COMPLETED",
         "station_ssid": parameters.absent_ssid if class_id == "ssid_not_found" else parameters.ssid,
         "station_pmf": "0" if class_id == "pmf_required_unsupported" else "1",
         "deny_acl": parameters.station_mac, "occupant_authorized": "flags=[AUTHORIZED]",
-        "station_address": "inet 192.0.2.20/24",
     }
     class FakeExecutor:
         processes = [(SimpleNamespace(poll=lambda: None), None, {"log": log}) for log in
@@ -147,6 +156,7 @@ def test_r9_class_injection_checks_use_control_queries_and_process_state(tmp_pat
             return SimpleNamespace(returncode=0, stdout=outputs[key], stderr="")
     verified, checks = verify_injection(FakeExecutor(), class_id, 1000, tmp_path, parameters)
     assert verified and all(check["passed"] for check in checks)
+    assert not {"station_handshake_completed", "dhcp_address_assigned"}.intersection(check["check"] for check in checks)
     assert not any(".log" in json.dumps(check.get("detail", {})) for check in checks if check["check"].endswith("_query"))
 
 

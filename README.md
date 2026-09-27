@@ -265,6 +265,16 @@ with an omitted-line marker and exact trimming records. No daemon output is
 invented for missing services. The harness uniformly removes control-command
 echo blocks and records the scrub in metadata, outside the model view.
 
+Each new bundle seals its observation window before verification queries and
+daemon shutdown. Visible captures use pcap timestamps; original log lines use
+hidden receipt times and any embedded daemon timestamp. Raw post-window output
+is retained separately and never shown to an arm. Old bundles without window
+provenance remain inspectable by `lab.observe`, with a warning, and must be
+regenerated for evaluation. Final station/IP/AP outcomes are recorded separately;
+unexpected outcomes are counted, never used to change labels or exclude runs.
+The dev observer reports reason-code direction and time to first protocol events,
+with unavailable timing shown explicitly when provenance is missing.
+
 Before using Ollama, start its server with `OLLAMA_CONTEXT_LENGTH=32768`, or
 set `num_ctx 32768` in a Modelfile. Its compatible endpoint cannot set this
 per request. The configured context must match the server. Other context values
@@ -285,8 +295,9 @@ raises `truncation_suspected`; that heuristic is not proof of truncation.
 | LLM, bounded tools | not yet run | not yet run |
 
 No empirical rules have been authored: `triage/rules.py` deliberately returns
-`unknown` until the dev split has been observed. No real lab or model accuracy
-result is claimed. Synthetic fixtures and scripted responses test plumbing,
+`unknown` until the owner develops rules from dev observations. An earlier real dev
+artifact exists, but includes teardown evidence and predates the observation-window
+fix. No model accuracy result is claimed. Synthetic fixtures and scripted responses test plumbing,
 not diagnostic skill. The raw arm sees fixed-budget, numbered logs; the tool arm
 can inspect frames and logs. Their difference therefore includes access to
 capture evidence, not just a different interaction style.
@@ -318,7 +329,8 @@ The leak probe fits a deliberately naive classifier using dev-only metadata
 features and reports test accuracy, a majority baseline and a shuffled-label
 control. A gain greater than 20 percentage points is flagged for review; genuine
 fault effects can also change log sizes or duration, so this is not proof of
-contamination. No real dataset or model evaluation has been run here.
+contamination. The corrected lab still needs a new Linux run; no model evaluation
+has been performed as part of this revision.
 
 ## Limitations
 

@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 import struct
+import hashlib
 
 
 SSID = "private-lab-network"
@@ -60,7 +61,8 @@ def build_bundle(path: Path, *, label="ok", seed=1000, split="dev") -> Path:
         "parameters": {"ssid": SSID, "ap_mac": AP, "station_mac": STATION,
                        "passphrase": "fixture-password", "channel": 6},
         "kernel": "synthetic", "tool_versions": {"fixture": "bytes-v1"},
-        "started_at": "2026-09-26T00:00:00+00:00", "ended_at": "2026-09-26T00:00:01+00:00",
+        "started_at": "2023-11-14T22:13:20+00:00", "ended_at": "2023-11-14T22:13:30+00:00",
+        "scenario_started_at": "2023-11-14T22:13:20+00:00", "scenario_started_monotonic_ns": 0,
         "status": "ok", "error": None, "generator_commit": "synthetic",
         "injection_verified": True, "verification": [{"check": "synthetic fixture", "passed": True}],
         "capture_health": {"healthy": True, "ap_beacons": 1},
@@ -68,4 +70,25 @@ def build_bundle(path: Path, *, label="ok", seed=1000, split="dev") -> Path:
         "dhcp_server_started": label != "dhcp_no_server",
     }
     (path / "meta.json").write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+    refresh_window(path)
     return path
+
+
+def refresh_window(path):
+    """Stamp deliberately synthetic receipts after a test edits its fixture."""
+    from lab.window import pcap_records
+    meta = json.loads((path / "meta.json").read_text(encoding="utf-8"))
+    logs = {}
+    for source in ("hostapd", "wpa_supplicant", "dhcp_server", "dhcp_client"):
+        content = (path / (source + ".log")).read_bytes()
+        count = len(content.decode("utf-8").splitlines())
+        logs[source] = {"sha256": hashlib.sha256(content).hexdigest(), "line_count": count,
+                        "lines": [{"unix_ns": 1700000000100000000 + number,
+                                   "monotonic_ns": 100000000 + number} for number in range(count)]}
+    capture = path / "capture.pcap"
+    meta["observation_end"] = {"wall_time": "2023-11-14T22:13:29+00:00",
+                               "unix_ns": 1700000009000000000, "monotonic_ns": 9000000000}
+    meta["observation_window"] = {"version": "receipt-pcap-v1", "logs": logs, "capture": {
+        "sha256": hashlib.sha256(capture.read_bytes()).hexdigest(),
+        "frames": sum(stamp is not None for stamp, _ in pcap_records(capture))}}
+    (path / "meta.json").write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")

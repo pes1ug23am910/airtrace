@@ -12,7 +12,7 @@ from triage.data import View, load_bundle, render_frame
 from triage.redact import Redactor, redact_bundle
 from triage.schema import Diagnosis, Evidence, JSON_SCHEMA, unknown
 from triage.tools import OUTPUT_LIMIT, Toolbox, search_safely
-from .fixtures.build import AP, SSID, STATION, build_bundle
+from .fixtures.build import AP, SSID, STATION, build_bundle, refresh_window
 
 
 @pytest.fixture
@@ -196,6 +196,7 @@ def test_committed_captures_preserve_frame_errors(tmp_path, binary, capture, rec
     path = build_bundle(tmp_path / "public-fixture")
     original = Path(__file__).resolve().parents[1] / "fixtures" / capture
     (path / "capture.pcap").write_bytes(original.read_bytes())
+    refresh_window(path)
     bundle = load_bundle(path, binary)
     assert len(bundle.frames) == records
     assert sum("error" in frame for frame in bundle.frames.values()) == errors

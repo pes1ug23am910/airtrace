@@ -2,6 +2,7 @@
 
 import argparse
 from datetime import datetime, timezone
+import io
 import json
 import os
 from pathlib import Path
@@ -13,8 +14,10 @@ import time
 
 from lab.manifest import git_commit, validate_meta, write_manifest
 from lab.scenarios import CLASS_IDS, SCENARIOS, bundle_id, draw_parameters, render_configs, seed_schedule
-from lab.scrub import scrub_bundle_logs
+from lab.scrub import SCRUB_RULES
 from lab.verify import check_capture_health, verification_commands, verify_injection
+from lab.outcomes import collect_observed, observation_commands
+from lab.window import LogRecorder, clock_mark, trim_capture
 
 
 COMMAND_TIMEOUT = 10
@@ -55,7 +58,7 @@ def command_plan(class_id: str, seed: int, directory: Path, phys=None, split="de
         run(["ip", "-n", namespace, "link", "set", f"wlan{index}", "address", address])
         run(["ip", "-n", namespace, "link", "set", f"wlan{index}", "up"])
     run(["ip", "-n", ap, "address", "add", "192.0.2.1/24", "dev", "wlan0"])
-    start(["tcpdump", "-U", "-n", "-Z", "root", "-s", "0", "-i", "hwsim0", "-w", f"{root}/capture.pcap"], "tcpdump.log")
+    start(["tcpdump", "-U", "-n", "-Z", "root", "-s", "0", "-i", "hwsim0", "-w", f"{root}/raw/capture.pcap"], "tcpdump.log")
     add("delay", seconds=0.5)
     if SCENARIOS[class_id].dhcp_server:
         start(ns(ap, ["dnsmasq", "--keep-in-foreground", f"--conf-file={root}/dnsmasq.conf"]), "dhcp_server.log")
@@ -80,12 +83,6 @@ def command_plan(class_id: str, seed: int, directory: Path, phys=None, split="de
         add("require", ns(ap, ["hostapd_cli", "-p", f"{root}/ap-control", "-i", "wlan0",
                               "deauthenticate", p.station_mac, "reason=3"]), contains="OK", timeout=COMMAND_TIMEOUT)
     add("delay", seconds=OBSERVE_SECONDS)
-    if class_id in ("ok", "dhcp_no_server"):
-        add("require", ns(station, ["wpa_cli", "-p", f"{root}/sta-control", "-i", "wlan1", "status"]),
-            contains="wpa_state=COMPLETED", timeout=COMMAND_TIMEOUT)
-    if class_id == "ok":
-        add("require", ["ip", "-n", station, "-4", "address", "show", "dev", "wlan1"],
-            contains="inet 192.0.2.", timeout=COMMAND_TIMEOUT)
     cleanup = [["ip", "netns", "delete", name] for name in reversed(namespaces)]
     cleanup.append(["modprobe", "-r", "mac80211_hwsim"])
     return steps, cleanup
@@ -94,6 +91,7 @@ def command_plan(class_id: str, seed: int, directory: Path, phys=None, split="de
 def show_plan(class_id: str, split: str, seed: int, directory: Path, phys=None, binary=None):
     steps, cleanup = command_plan(class_id, seed, directory, phys, split)
     print(f"# bundle={directory}, split={split}, seed={seed}")
+    print(f"# create {directory / 'raw'} for daemon output and the untrimmed capture")
     for name, content in render_configs(class_id, draw_parameters(seed, split), str(directory)).items():
         print(f"# write {directory / name}: {json.dumps(content)}")
     if not SCENARIOS[class_id].dhcp_server:
@@ -106,16 +104,22 @@ def show_plan(class_id: str, split: str, seed: int, directory: Path, phys=None, 
             if "contains" in step:
                 suffix += f", require stdout containing {step['contains']!r}"
             if "log" in step:
-                suffix += f", append stdout/stderr to {directory / step['log']}"
+                suffix += f", record stdout/stderr and receipt times under {directory / 'raw' / step['log']}"
+            if step.get("log") == "wpa_supplicant.log":
+                print("# record scenario start wall clock and monotonic time")
             print(shlex.join(step["argv"]) + suffix)
+    print("# close observation: record end clocks; SIGINT tcpdump and wait 3s, KILL and wait 3s if needed")
+    print("# copy pcap records and original log lines at/before the end; freeze visible files before any verification query")
     for argv in verification_commands(class_id, seed, directory, draw_parameters(seed, split)).values():
         print(shlex.join(argv) + " # harness verification, timeout=10s; output only in metadata")
+    for argv in observation_commands(class_id, seed, directory).values():
+        print(shlex.join(argv) + " # final observed state, timeout=10s; output only in metadata")
     print("# finally: TERM each started process group; wait 3s, KILL if necessary; wait 3s")
     for argv in cleanup:
         print(shlex.join(argv) + f" # cleanup, timeout={COMMAND_TIMEOUT}s")
     capture_command = [str(binary or os.environ.get("AIRTRACE_BIN", "airtrace")), "parse", str(directory / "capture.pcap"), "--jsonl", "--stats"]
     print(shlex.join(capture_command) + " # capture health after cleanup, timeout=30s; output only in metadata")
-    print("# uniformly scrub control-command echo lines; record counts in metadata")
+    print("# control echoes are scrubbed during the immutable log snapshot; raw files are never model-visible")
 
 
 def utc_now():
@@ -125,11 +129,16 @@ def utc_now():
 class Executor:
     def __init__(self, directory: Path):
         self.directory = directory
+        (directory / "raw").mkdir(exist_ok=True)
         self.deadline = time.monotonic() + RUN_TIMEOUT
         self.processes = []
         self.records = []
         self.namespaces = set()
         self.loaded_module = False
+        self.recorders = {}
+        self.observation_end = None
+        self.observation_window = None
+        self.capture_closed = False
 
     def remaining(self, timeout):
         remaining = self.deadline - time.monotonic()
@@ -163,6 +172,8 @@ class Executor:
 
     def healthy(self):
         for process, stream, step in self.processes:
+            if self.capture_closed and step["log"] == "tcpdump.log":
+                continue
             if step["required"] and process.poll() is not None:
                 raise RuntimeError(f"required process exited ({process.returncode}): {shlex.join(step['argv'])}")
 
@@ -175,13 +186,12 @@ class Executor:
             time.sleep(step["seconds"])
         elif kind == "start":
             self.remaining(1)
-            stream = (self.directory / step["log"]).open("ab", buffering=0)
-            try:
-                process = subprocess.Popen(step["argv"], stdout=stream, stderr=stream, start_new_session=True)
-            except BaseException:
-                stream.close()
-                raise
-            self.processes.append((process, stream, step))
+            process = subprocess.Popen(step["argv"], stdout=subprocess.PIPE,
+                                       stderr=subprocess.STDOUT, start_new_session=True)
+            recorder = LogRecorder(process.stdout, self.directory / "raw" / step["log"])
+            self.recorders[step["log"]] = recorder
+            self.processes.append((process, recorder, step))
+            recorder.start()
             self.records.append({"argv": step["argv"], "timeout": step["timeout"], "background": True, "log": step["log"]})
         elif kind == "wait":
             deadline = time.monotonic() + self.remaining(step["timeout"])
@@ -197,9 +207,44 @@ class Executor:
             if kind == "require" and step["contains"] not in result.stdout:
                 raise RuntimeError(f"precondition missing: {step['contains']}")
 
+    def close_observation(self):
+        """One cutoff for every class, before control queries or daemon cleanup."""
+        if self.observation_window is not None:
+            return self.observation_end, self.observation_window
+        if self.observation_end is None:
+            self.observation_end = clock_mark()
+        self.capture_closed = True
+        for process, recorder, step in self.processes:
+            if step["log"] != "tcpdump.log":
+                continue
+            if process.poll() is None:
+                os.killpg(process.pid, signal.SIGINT)
+                try:
+                    process.wait(timeout=3)
+                except subprocess.TimeoutExpired:
+                    os.killpg(process.pid, signal.SIGKILL)
+                    process.wait(timeout=3)
+            recorder.finish()
+            self.records.append({"event": "capture_stopped", "returncode": process.returncode})
+        logs = {}
+        for source in ("hostapd", "wpa_supplicant", "dhcp_server", "dhcp_client"):
+            filename = source + ".log"
+            recorder = self.recorders.get(filename)
+            if recorder is None:
+                recorder = LogRecorder(io.BytesIO(b""), self.directory / "raw" / filename)
+                recorder.start()
+                recorder.finish()
+            logs[source] = recorder.snapshot(self.directory / filename, self.observation_end,
+                                             scrub=source in SCRUB_RULES["sources"])
+        capture = trim_capture(self.directory / "raw" / "capture.pcap",
+                               self.directory / "capture.pcap", self.observation_end)
+        self.observation_window = {"version": "receipt-pcap-v1", "logs": logs, "capture": capture}
+        self.records.append({"event": "observation_closed", **self.observation_end})
+        return self.observation_end, self.observation_window
+
     def cleanup(self, commands):
         errors = []
-        for process, stream, step in reversed(self.processes):
+        for process, recorder, step in reversed(self.processes):
             try:
                 if process.poll() is None:
                     os.killpg(process.pid, signal.SIGTERM)
@@ -212,7 +257,10 @@ class Executor:
             except (OSError, subprocess.TimeoutExpired) as error:
                 errors.append(str(error))
             finally:
-                stream.close()
+                try:
+                    recorder.finish()
+                except (OSError, RuntimeError, TimeoutError) as error:
+                    errors.append(str(error))
         for argv in commands:
             if argv[:3] == ["ip", "netns", "delete"] and argv[3] not in self.namespaces:
                 continue
@@ -271,6 +319,8 @@ def run_bundle(class_id, split, seed, directory, commit, versions, binary=None):
         "capture_health": {"healthy": False, "ap_beacons": 0, "error": "not checked"},
         "quarantined": True, "quarantine_reasons": [], "log_scrub": {},
         "dhcp_server_started": False,
+        "scenario_started_at": None, "scenario_started_monotonic_ns": None,
+        "observation_end": None, "observation_window": None, "observed": None,
     }
     executor = Executor(directory)
     steps, cleanup = command_plan(class_id, seed, directory, split=split)
@@ -282,10 +332,12 @@ def run_bundle(class_id, split, seed, directory, commit, versions, binary=None):
         phys = discover_phys()
         steps, cleanup = command_plan(class_id, seed, directory, phys, split)
         for step in steps[1:]:
+            if step.get("log") == "wpa_supplicant.log":
+                scenario_start = clock_mark()
+                metadata["scenario_started_at"] = scenario_start["wall_time"]
+                metadata["scenario_started_monotonic_ns"] = scenario_start["monotonic_ns"]
             executor.execute(step)
         executor.healthy()
-        metadata["injection_verified"], metadata["verification"] = verify_injection(
-            executor, class_id, seed, directory, parameters)
         metadata["status"] = "ok"
     except (OSError, RuntimeError, TimeoutError, subprocess.SubprocessError) as error:
         metadata["error"] = f"{type(error).__name__}: {error}"
@@ -293,13 +345,38 @@ def run_bundle(class_id, split, seed, directory, commit, versions, binary=None):
         metadata["error"] = f"{type(error).__name__}: interrupted"
         raise
     finally:
-        cleanup_errors = executor.cleanup(cleanup)
+        try:
+            try:
+                metadata["observation_end"], metadata["observation_window"] = executor.close_observation()
+            except (OSError, RuntimeError, ValueError, TimeoutError, subprocess.SubprocessError) as error:
+                metadata["observation_end"] = executor.observation_end
+                metadata["status"] = "failed"
+                metadata["error"] = (metadata["error"] or "") + f"; observation close: {type(error).__name__}: {error}"
+            try:
+                if metadata["status"] == "ok":
+                    metadata["injection_verified"], metadata["verification"] = verify_injection(
+                        executor, class_id, seed, directory, parameters)
+            except (OSError, RuntimeError, ValueError, TimeoutError, subprocess.SubprocessError) as error:
+                metadata["verification"].append({"check": "verification_queries", "passed": False, "detail": str(error)})
+                metadata["injection_verified"] = False
+            try:
+                if metadata["scenario_started_at"] is not None:
+                    metadata["observed"] = collect_observed(executor, class_id, seed, directory, parameters)
+            except (OSError, RuntimeError, ValueError, TimeoutError, subprocess.SubprocessError) as error:
+                metadata["observed"] = {"wpa_state": None, "ipv4_lease_present": None,
+                                        "ap_associated": None, "ap_authorized": None,
+                                        "errors": [{"query": "collection", "error": str(error)}], "queries": []}
+        finally:
+            cleanup_errors = executor.cleanup(cleanup)
         if cleanup_errors:
             metadata["status"] = "failed"
             metadata["error"] = (metadata["error"] or "") + "; cleanup: " + "; ".join(cleanup_errors)
         metadata["dhcp_server_started"] = any(
             step.get("log") == "dhcp_server.log" for process, stream, step in getattr(executor, "processes", []))
-        metadata["log_scrub"] = scrub_bundle_logs(directory)
+        window_logs = (metadata["observation_window"] or {}).get("logs", {})
+        metadata["log_scrub"] = {"rules": SCRUB_RULES, "removed_lines": {
+            source: window_logs.get(source, {}).get("removed_control_lines", 0)
+            for source in SCRUB_RULES["sources"]}}
         metadata["capture_health"] = check_capture_health(directory / "capture.pcap", parameters.ap_mac, binary)
         metadata["ended_at"] = utc_now()
         metadata["commands"] = executor.records

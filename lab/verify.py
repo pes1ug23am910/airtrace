@@ -25,8 +25,6 @@ def verification_commands(class_id, seed, directory, parameters):
         commands["deny_acl"] = ap + ["deny_acl", "SHOW"]
     if class_id == "ap_full":
         commands["occupant_authorized"] = ap + ["sta", parameters.occupant_mac]
-    if class_id == "ok":
-        commands["station_address"] = ["ip", "-n", f"at-{token}-sta", "-4", "address", "show", "dev", "wlan1"]
     return commands
 
 
@@ -92,7 +90,6 @@ def verify_injection(executor, class_id, seed, directory, parameters):
     elif class_id == "dhcp_no_server":
         launched = [step for process, stream, step in executor.processes if step["log"] == "dhcp_server.log"]
         record("server_never_launched", not launched, "no server process launched in the newly created AP namespace")
-        record("station_handshake_completed", "wpa_state=COMPLETED" in responses.get("station_status", ""), responses.get("station_status", ""))
     elif class_id == "ap_deauth":
         completed_before_action = False
         acknowledged = False
@@ -108,9 +105,6 @@ def verify_injection(executor, class_id, seed, directory, parameters):
     elif class_id == "ssid_not_found":
         record("distinct_networks_loaded", parameters.ssid != expected_ssid and live_ap.get("ssid") == parameters.ssid,
                "AP and station control queries report different SSIDs")
-    elif class_id == "ok":
-        record("station_handshake_completed", "wpa_state=COMPLETED" in responses.get("station_status", ""), responses.get("station_status", ""))
-        record("dhcp_address_assigned", "inet 192.0.2." in responses.get("station_address", ""), responses.get("station_address", ""))
     if class_id != "dhcp_no_server":
         record("server_running", "dhcp_server.log" in active, "server process state in the AP namespace")
     return all(item["passed"] for item in checks), checks
