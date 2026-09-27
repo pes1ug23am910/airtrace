@@ -1,0 +1,52 @@
+name: Wi-Fi fault lab
+
+on:
+  workflow_dispatch:
+    inputs:
+      split:
+        description: Dataset split to generate
+        type: choice
+        required: false
+        default: all
+        options:
+          - dev
+          - test
+          - all
+
+permissions:
+  contents: read
+
+jobs:
+  dataset:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Install lab dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y linux-modules-extra-$(uname -r) hostapd wpasupplicant dnsmasq tcpdump iw iproute2 busybox python3-venv
+          python3 -m venv .local/venv
+          .local/venv/bin/python -m pip install pytest pydantic httpx
+      - name: Build airtrace
+        run: |
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+          cmake --build build --parallel
+      - name: Generate selected dataset split
+        env:
+          LAB_SPLIT: ${{ inputs.split }}
+        run: sudo .local/venv/bin/python -m lab.run_lab --binary "$PWD/build/airtrace" --per-class 12 --split "$LAB_SPLIT" --seed-base 1000 --out .local/dataset
+      - name: Validate dataset with airtrace
+        if: always()
+        env:
+          AIRTRACE_BIN: ${{ github.workspace }}/build/airtrace
+          AIRTRACE_DATASET: ${{ github.workspace }}/.local/dataset
+        run: .local/venv/bin/python -m pytest tests/lab --basetemp=.local/pytest-lab -v
+      - name: Upload dataset including failed runs
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: wifi-fault-dataset
+          path: .local/dataset/
+          include-hidden-files: true
+          if-no-files-found: error
