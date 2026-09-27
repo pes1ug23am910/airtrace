@@ -2,8 +2,8 @@
 
 A C11 parser for classic pcap captures containing 802.11 frames, with JSONL output
 and capture statistics. The parsing API uses caller-owned storage and performs no
-dynamic allocation. The command-line tool, tests, benchmark, and fuzz target are C;
-there is no Python harness.
+dynamic allocation. The command-line tool, parser tests, benchmark, and fuzz target
+are C. The optional fault lab and triage evaluation harness use Python.
 
 ## Build and test
 
@@ -194,6 +194,131 @@ frame count, passes, accepted/rejected totals, elapsed time, frames/s, and a
 checksum. Report the compiler, build type, capture, and passes with any result.
 Frames/s includes rejected frames; use the Nokia capture for an all-success run.
 Allocation during benchmark setup is outside the parsing path and timed loop.
+
+## Triage and evaluation
+
+The v0.2 harness wraps the unchanged v0.1.0 parser:
+
+1. `lab/` injects nine Wi-Fi scenarios into Linux mac80211_hwsim; labels come from the injected class.
+2. Opaque bundle IDs hold the pcap and ordered daemon logs; metadata records injection checks, quarantine and environment.
+3. `triage/data.py` runs airtrace; the default client view exposes capture, station and DHCP-client observations through redaction.
+4. Rules, raw-log LLM, and tool-using LLM arms share the view and diagnosis schema; quotes are checked against visible sources.
+5. Evaluation reports paired differences, exact McNemar tests, bootstrap/binomial intervals, exclusions, citations, usage and estimated costs.
+
+Generate the 108-bundle dataset with the manual **Wi-Fi fault lab** workflow in
+[lab.yml](.github/workflows/lab.yml), then download its artifact. It uses
+`ubuntu-22.04`, 4 dev runs and 8 test runs per class, with held-out seeds and parameter range.
+Dev uses channels 1–6 and delays 0.2–1.2 s; test uses channels 7–11 and delays 1.5–3.0 s.
+The workflow accepts `split=dev`, `test`, or `all` (default) and allows 330 minutes.
+When checked in September 2026, `mac80211_hwsim` was unavailable on WSL2 and on
+`ubuntu-24.04` runners, so the lab does not run there.
+See [lab/README.md](lab/README.md) for root requirements, dry-run commands,
+failure recording, and the dev-only observation table.
+
+Python >=3.10 with `pytest`, `pydantic>=2`, and `httpx` is required. Point
+`AIRTRACE_BIN` at a built CLI (or pass `--airtrace` to evaluation). For example:
+
+```sh
+export AIRTRACE_BIN="$PWD/build/airtrace"
+python -m pytest tests/triage tests/lab -q
+python -m lab.observe --dataset datasets/wifi
+python -m triage.eval --dataset datasets/wifi --split dev --arms rules --out results/dev-rules
+```
+
+On native Windows, build with
+`gcc -std=c11 -O2 -Iinclude src/airtrace.c src/pcap.c src/main.c -o .local/airtrace.exe`
+and set `$env:AIRTRACE_BIN` to its absolute path. Create `.local` first.
+Tests generate small byte fixtures under ignored `.local`; no model service is
+needed. `AIRTRACE_DATASET` enables the additional generated-dataset checks.
+
+For model runs, review [models.json](models.json), remove unused entries, and
+explicitly select settings. [models.example.json](models.example.json) documents the format.
+The `_comment` fields are documentation in valid JSON. A local server needs no
+API key; hosted entries name an environment variable, never a stored key.
+These commands make requests to the configured service:
+
+```sh
+python -m triage.eval --dataset datasets/wifi --split dev --arms rules llm_raw llm_tools --models models.json --out results/dev-all
+python -m triage.leakprobe datasets/wifi
+# Review dev observations and finish rules/settings before freezing.
+python -m triage.freeze --dataset datasets/wifi --models models.json
+python -m triage.eval --dataset datasets/wifi --split test --arms rules llm_raw llm_tools --models models.json --out results/test-all
+```
+
+Freezing records test-manifest, rules, instruction-file, model-configuration,
+and working-source hashes in `triage/FROZEN.json`; test evaluation refuses any
+change. Every result records those inputs and the Git commit. The freeze file
+is created exclusively and is ignored by Git; retain it with the experiment
+results. Dev runs are unrestricted. Changing the freeze after inspecting test
+results does not create a new independent evaluation with held-out seeds and parameter range.
+Frozen settings also include the view, raw budget, model output/context limits,
+citation-rules version, control-echo scrub rules and causal label map.
+
+`--view client` is the default and primary result: capture, `wpa_supplicant.log`,
+and `dhcp_client.log`. `--view full` additionally allows AP and DHCP-server logs
+and is supplementary. Each arm, tool, citation checker and redaction pass obeys
+this boundary; use the same view when freezing and evaluating.
+
+The raw-log budget defaults to 48,000 characters (`--raw-char-budget`). Each
+source keeps complete numbered lines from its first 15% and last 85% allocation,
+with an omitted-line marker and exact trimming records. No daemon output is
+invented for missing services. The harness uniformly removes control-command
+echo blocks and records the scrub in metadata, outside the model view.
+
+Before using Ollama, start its server with `OLLAMA_CONTEXT_LENGTH=32768`, or
+set `num_ctx 32768` in a Modelfile. Its compatible endpoint cannot set this
+per request. The configured context must match the server. Other context values
+in the configuration are local planning budgets, not verified provider limits.
+Preflight checks every eligible bundle before constructing clients, using a
+conservative serialized-byte estimate plus output/repair reserves. A full
+48,000-character input may be rejected at 32,768 context; reduce the raw budget
+uniformly and freeze that choice, or increase both server and declared context.
+`max_tokens` defaults to 4,096; gpt-oss uses 8,192 including reasoning tokens.
+`finish_reason=length` is reported as `TRUNCATED` and excluded from accuracy,
+not counted as a schema failure. Prompt usage within 2% of the declared context
+raises `truncation_suspected`; that heuristic is not proof of truncation.
+
+| Arm | Real dev results | Real results with held-out seeds and parameter range |
+| --- | --- | --- |
+| Rules (currently an `unknown` placeholder) | not yet run | not yet run |
+| LLM, raw logs | not yet run | not yet run |
+| LLM, bounded tools | not yet run | not yet run |
+
+No empirical rules have been authored: `triage/rules.py` deliberately returns
+`unknown` until the dev split has been observed. No real lab or model accuracy
+result is claimed. Synthetic fixtures and scripted responses test plumbing,
+not diagnostic skill. The raw arm sees fixed-budget, numbered logs; the tool arm
+can inspect frames and logs. Their difference therefore includes access to
+capture evidence, not just a different interaction style.
+
+This lab models software protocol behavior, not RF propagation or physical
+drivers/firmware, and uses one kernel/hostapd environment. An injected fault
+does not guarantee a particular observable status/reason signature. Failed
+runs and unsuccessful injection/capture checks remain on disk in quarantine,
+with exclusion counts and reasons in the manifest and reports. No labels change.
+Harness checks establish the configured intervention and available acknowledgements;
+they do not guarantee a particular client-visible effect. A citation passing
+means its quotation exists, not that it proves the root cause. Bootstrap
+intervals cover bundle sampling, not hardware diversity or repeated model
+draws. Logs and traces can still contain sensitive information beyond MACs,
+SSIDs and configured passphrases; HMAC pseudonymisation is not anonymisation.
+
+Evaluation writes `metrics.json`, `per_bundle.jsonl`, `report.md`, `audit_sample.csv`, and an
+append-only `trace.jsonl` for model calls. Traces retain full redacted requests,
+tool definitions, replies, resolved model identifiers, usage and retry details
+for replay without another model request. The per-run redaction key is not
+saved. Unsupported code lookups return `unknown` rather than guessing.
+Automatic rule/fallback evidence is excluded from citation metrics. Model quotes
+must resolve to a complete frame JSON member or a log quote containing at least
+12 non-whitespace characters; repetition on more than three locations is reported
+separately as ambiguity. Fill the audit CSV's empty `supports_diagnosis` column
+to assess causal support manually.
+
+The leak probe fits a deliberately naive classifier using dev-only metadata
+features and reports test accuracy, a majority baseline and a shuffled-label
+control. A gain greater than 20 percentage points is flagged for review; genuine
+fault effects can also change log sizes or duration, so this is not proof of
+contamination. No real dataset or model evaluation has been run here.
 
 ## Limitations
 

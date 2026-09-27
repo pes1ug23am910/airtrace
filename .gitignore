@@ -10,3 +10,10 @@ slow-unit-*
 timeout-*
 oom-*
 .DS_Store
+/.local/
+/tmp/
+__pycache__/
+.pytest_cache/
+/results/
+/datasets/
+/triage/FROZEN.json

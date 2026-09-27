@@ -10,6 +10,28 @@ permissions:
   contents: read
 
 jobs:
+  python:
+    name: Python integration (${{ matrix.os }}, ${{ matrix.python }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.10', '3.14']
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ matrix.python }}
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build --parallel
+      - run: python -m pip install pytest pydantic httpx
+      - name: Offline Python tests
+        env:
+          AIRTRACE_BIN: ${{ github.workspace }}/build/airtrace
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -m pytest tests/triage tests/lab -q
+
   build-test:
     name: Build and test (${{ matrix.os }}, ${{ matrix.compiler }})
     runs-on: ${{ matrix.os }}
